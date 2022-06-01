@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3001912.img">
+<imgdir name="info">
+<int name="sayFlip" value="1"/>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="53" height="74">
+<vector name="origin" x="23" y="74"/>
+<int name="z" value="0"/>
+<string name="_hash" value="42827ae73d0370a67308c51b4a5660838268402ca67f13e37a3a4dce7d9a398d"/>
+</canvas>
+</imgdir>
+<imgdir name="say">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="23" y="74"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+<canvas name="1" width="53" height="73">
+<vector name="origin" x="23" y="73"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="a69893d9076e7fdfdc176deadf551e084713dba73e7f18cf0d7074ae4f9a1b38"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="23" y="74"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="23" y="73"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_inlink" value="say/1"/>
+</canvas>
+</imgdir>
+<imgdir name="blink">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="23" y="74"/>
+<int name="z" value="0"/>
+<int name="delay" value="210"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+<canvas name="1" width="53" height="74">
+<vector name="origin" x="23" y="74"/>
+<int name="z" value="0"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="ec38c2bb5dab9f5ba613d08e90d2905a8c86b954c716f498cd8ba2b19725bab0"/>
+</canvas>
+</imgdir>
+<imgdir name="condition2">
+<imgdir name="39660 ">
+<imgdir name="0">
+<string name="value" value="h0"/>
+<string name="key" value="12"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="say" value="../say"/>
+<uol name="blink" value="../blink"/>
+<int name="hide" value="1"/>
+</imgdir>
+<imgdir name="condition3">
+<imgdir name="39660 ">
+<imgdir name="0">
+<string name="value" value="h1"/>
+<string name="key" value="12"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="say" value="../say"/>
+<uol name="blink" value="../blink"/>
+</imgdir>
+</imgdir>

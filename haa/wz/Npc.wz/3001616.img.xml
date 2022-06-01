@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3001616.img">
+<imgdir name="info">
+<imgdir name="script">
+<imgdir name="0">
+<string name="script" value="talk_3001616"/>
+</imgdir>
+</imgdir>
+<imgdir name="speak">
+<string name="0" value="n0"/>
+<string name="1" value="n1"/>
+</imgdir>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="87" height="89">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<string name="_hash" value="02cef77076eefa914a72aef866aa502d8000deea7e74cb185d18e6a342c40b1e"/>
+</canvas>
+</imgdir>
+<imgdir name="say">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+<canvas name="1" width="87" height="89">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_hash" value="63cba5a9a42c9361473f727a23906f12eae0cca9baae99118c664a1ca394a049"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+<canvas name="3" width="87" height="89">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_hash" value="d3eaeee5f4e32185d22de53a7c03a2ce71037e7f80edfb373e05e3c0dba65f71"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+</imgdir>
+<imgdir name="blink">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+<canvas name="1" width="87" height="89">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<string name="_hash" value="dcdcf63ecd4e12bcb8e3dff731a7ce2a134809c71dbc1381000f5f6c4fe0bf23"/>
+</canvas>
+<canvas name="2" width="87" height="89">
+<vector name="origin" x="51" y="88"/>
+<int name="z" value="0"/>
+<string name="_hash" value="2ac30ce0a5f643e964840efedb16a5906c9d0e5c9b96f14d3a0a89a9f5ce422e"/>
+</canvas>
+</imgdir>
+<imgdir name="condition2">
+<imgdir name="39598">
+<imgdir name="0">
+<string name="key" value="16"/>
+<string name="value" value="h0"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="say" value="../say"/>
+<uol name="blink" value="../blink"/>
+<int name="hide" value="1"/>
+</imgdir>
+<imgdir name="condition3">
+<imgdir name="39598">
+<imgdir name="0">
+<string name="key" value="16"/>
+<string name="value" value="h1"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="say" value="../say"/>
+<uol name="blink" value="../blink"/>
+</imgdir>
+</imgdir>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3087.img">
+<imgdir name="info">
+<string name="mainCategory" value="battle"/>
+<string name="subCategory" value="boss"/>
+<string name="name" value="[매그너스] 노바의 배신자, 그게 바로 너다!"/>
+<string name="desc" value="노바 직업으로 하드 매그너스 마지막 타격 10회"/>
+<string name="difficulty" value="epic"/>
+<int name="score" value="30"/>
+<imgdir name="uiType">
+<string name="uiForm" value="basic"/>
+<string name="gauge" value="submission_info"/>
+<int name="gaugeMissionIndex" value="0"/>
+<string name="gaugeSubMission" value="mob_kill"/>
+</imgdir>
+</imgdir>
+<imgdir name="mission">
+<imgdir name="0">
+<string name="name" value="노바 직업으로 하드 매그너스 마지막 타격 10회"/>
+<imgdir name="subMission">
+<imgdir name="mob_kill">
+<imgdir name="score">
+<int name="targetScore" value="10"/>
+<string name="compare" value="greater_than_or_equal_to"/>
+<string name="type" value="counting"/>
+</imgdir>
+<imgdir name="checkValue">
+<imgdir name="mob">
+<int name="mob_id" value="8880000"/>
+</imgdir>
+<imgdir name="character">
+<string name="condition" value="or"/>
+<imgdir name="values">
+<imgdir name="0">
+<int name="character_jobcode" value="6100"/>
+</imgdir>
+<imgdir name="1">
+<int name="character_jobcode" value="6110"/>
+</imgdir>
+<imgdir name="2">
+<int name="character_jobcode" value="6111"/>
+</imgdir>
+<imgdir name="3">
+<int name="character_jobcode" value="6112"/>
+</imgdir>
+<imgdir name="4">
+<int name="character_jobcode" value="6400"/>
+</imgdir>
+<imgdir name="5">
+<int name="character_jobcode" value="6410"/>
+</imgdir>
+<imgdir name="6">
+<int name="character_jobcode" value="6411"/>
+</imgdir>
+<imgdir name="7">
+<int name="character_jobcode" value="6412"/>
+</imgdir>
+<imgdir name="8">
+<int name="character_jobcode" value="6500"/>
+</imgdir>
+<imgdir name="9">
+<int name="character_jobcode" value="6510"/>
+</imgdir>
+<imgdir name="10">
+<int name="character_jobcode" value="6511"/>
+</imgdir>
+<imgdir name="11">
+<int name="character_jobcode" value="6512"/>
+</imgdir>
+<imgdir name="12">
+<int name="character_jobcode" value="6003"/>
+</imgdir>
+<imgdir name="13">
+<int name="character_jobcode" value="6300"/>
+</imgdir>
+<imgdir name="14">
+<int name="character_jobcode" value="6310"/>
+</imgdir>
+<imgdir name="15">
+<int name="character_jobcode" value="6311"/>
+</imgdir>
+<imgdir name="16">
+<int name="character_jobcode" value="6312"/>
+</imgdir>
+</imgdir>
+</imgdir>
+<int name="is_last_attack" value="1"/>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

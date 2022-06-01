@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1541000.img">
+<imgdir name="info">
+<int name="hide" value="1"/>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="48" height="75">
+<vector name="origin" x="22" y="75"/>
+<int name="z" value="0"/>
+<string name="_hash" value="8282732d5b63fc88cbf607f2d00e211e90bb45673d0cb305fce53a1077ca66be"/>
+</canvas>
+</imgdir>
+<imgdir name="say">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="22" y="75"/>
+<int name="z" value="0"/>
+<int name="delay" value="200"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+<canvas name="1" width="48" height="75">
+<vector name="origin" x="22" y="75"/>
+<int name="z" value="0"/>
+<int name="delay" value="200"/>
+<string name="_hash" value="4c9620127d106fbc8a222fa6d195cbfac1ad7fa7d5d7520bf820586063d55b13"/>
+</canvas>
+<uol name="2" value="0"/>
+<uol name="3" value="1"/>
+<uol name="4" value="0"/>
+<uol name="5" value="1"/>
+<uol name="6" value="1"/>
+<uol name="7" value="0"/>
+</imgdir>
+<imgdir name="eye">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="22" y="75"/>
+<int name="z" value="0"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+<canvas name="1" width="48" height="75">
+<vector name="origin" x="22" y="75"/>
+<int name="z" value="0"/>
+<string name="_hash" value="cdeae432259a3efc5dc1fc9affe3feb8f558d7d475faf9b0d100ae6a54bed228"/>
+</canvas>
+<canvas name="2" width="48" height="75">
+<vector name="origin" x="22" y="75"/>
+<int name="z" value="0"/>
+<string name="_hash" value="db7abfa80f317a8a851262f40cbc8ad473949199a98af80b34b57d79b739ec4a"/>
+</canvas>
+</imgdir>
+<imgdir name="condition2">
+<imgdir name="36300">
+<imgdir name="0">
+<string name="key" value="00"/>
+<string name="value" value="h0"/>
+</imgdir>
+</imgdir>
+<int name="hide" value="1"/>
+<uol name="stand" value="../stand"/>
+<uol name="eye" value="../eye"/>
+<uol name="say" value="../say"/>
+</imgdir>
+<imgdir name="condition3">
+<imgdir name="36300">
+<imgdir name="0">
+<string name="key" value="00"/>
+<string name="value" value="h1"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="eye" value="../eye"/>
+<uol name="say" value="../say"/>
+</imgdir>
+<imgdir name="condition4">
+<imgdir name="36300">
+<imgdir name="0">
+<string name="key" value="00"/>
+<string name="value" value="h2"/>
+</imgdir>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="46" height="75">
+<vector name="origin" x="22" y="75"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e14d181608699f247d8130fa9917e82ba7048a6fa69cf3f547f0fe58c2bdf2e2"/>
+</canvas>
+</imgdir>
+<uol name="eye" value="stand"/>
+<uol name="say" value="stand"/>
+</imgdir>
+</imgdir>

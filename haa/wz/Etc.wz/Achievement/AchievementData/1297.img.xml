@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1297.img">
+<imgdir name="info">
+<string name="mainCategory" value="adventure"/>
+<string name="subCategory" value="special"/>
+<string name="name" value="[고스트파크] 귀신도 모르게"/>
+<string name="desc" value="고스트파크 랭킹모드 1분 이상 버티기"/>
+<string name="difficulty" value="normal"/>
+<int name="score" value="10"/>
+<imgdir name="uiType">
+<string name="uiForm" value="basic"/>
+<string name="gauge" value="submission_info"/>
+<int name="gaugeMissionIndex" value="0"/>
+<string name="gaugeSubMission" value="quest_qrex_change"/>
+</imgdir>
+</imgdir>
+<imgdir name="mission">
+<imgdir name="0">
+<string name="name" value="고스트파크 랭킹모드 1분 이상 버티기"/>
+<imgdir name="subMission">
+<imgdir name="quest_qrex_change">
+<imgdir name="score">
+<int name="targetScore" value="1"/>
+<string name="compare" value="greater_than_or_equal_to"/>
+<string name="type" value="counting"/>
+</imgdir>
+<imgdir name="checkValue">
+<imgdir name="quest_change_info">
+<string name="quest_id" value="100471"/>
+<imgdir name="quest_ex">
+<string name="condition" value="and"/>
+<imgdir name="values">
+<imgdir name="0">
+<string name="key" value="a1"/>
+<string name="value" value="1"/>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

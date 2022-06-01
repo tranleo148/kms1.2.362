@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="5002.img">
+<imgdir name="info">
+<string name="name" value="이 기둥 내가 세운 거야"/>
+<string name="desc" value="기여도 10,000,000 이상 획득하기"/>
+<int name="score" value="40"/>
+<string name="mainCategory" value="social"/>
+<string name="subCategory" value="guild"/>
+<string name="difficulty" value="unique"/>
+<imgdir name="uiType">
+<string name="gauge" value="submission_info"/>
+<string name="gaugeSubMission" value="guild_commitment_inc"/>
+</imgdir>
+</imgdir>
+<imgdir name="mission">
+<imgdir name="0">
+<string name="name" value="기여도 10,000,000 이상 획득하기"/>
+<imgdir name="subMission">
+<imgdir name="guild_commitment_inc">
+<imgdir name="score">
+<long name="targetScore" value="10000000"/>
+<string name="compare" value="greater_than_or_equal_to"/>
+<string name="type" value="sum"/>
+<string name="setGroup" value="guild_commitment_inc_info"/>
+<string name="setValue" value="guild_commitment_inc_point"/>
+</imgdir>
+<imgdir name="checkValue">
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

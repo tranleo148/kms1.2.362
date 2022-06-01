@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="5012.img">
+<imgdir name="info">
+<string name="mainCategory" value="social"/>
+<string name="subCategory" value="guild"/>
+<string name="name" value="[샤레니안의 지하 수로] 이것이 저의 진정한 완전체입니다"/>
+<string name="desc" value="아르카누스 6단계 소환"/>
+<string name="difficulty" value="epic"/>
+<int name="score" value="30"/>
+<imgdir name="uiType">
+<string name="uiForm" value="basic"/>
+<string name="gauge" value="submission_info"/>
+<int name="gaugeMissionIndex" value="0"/>
+<string name="gaugeSubMission" value="script"/>
+</imgdir>
+<imgdir name="prior">
+<string name="condition" value="or"/>
+<imgdir name="values">
+<imgdir name="0">
+<int name="achievement_id" value="5006"/>
+<int name="achievement_state" value="2"/>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="mission">
+<imgdir name="0">
+<string name="name" value="아르카누스 6단계 소환"/>
+<imgdir name="subMission">
+<imgdir name="script">
+<imgdir name="score">
+<int name="targetScore" value="1"/>
+<string name="compare" value="greater_than_or_equal_to"/>
+<string name="type" value="counting"/>
+</imgdir>
+<imgdir name="checkValue">
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

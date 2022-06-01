@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="8880702.img">
+<imgdir name="info">
+<int name="level" value="250"/>
+<int name="maxHP" value="2100000000"/>
+<int name="maxMP" value="10000000"/>
+<int name="speed" value="-60"/>
+<int name="PADamage" value="22000"/>
+<int name="PDDamage" value="600"/>
+<int name="PDRate" value="300"/>
+<int name="MADamage" value="24000"/>
+<int name="MDDamage" value="450"/>
+<int name="MDRate" value="300"/>
+<int name="acc" value="9999"/>
+<int name="eva" value="750"/>
+<int name="pushed" value="1000000000"/>
+<int name="boss" value="1"/>
+<int name="exp" value="0"/>
+<int name="summonType" value="12"/>
+<int name="category" value="8"/>
+<int name="mpRecovery" value="10000"/>
+<string name="mobType" value="1N"/>
+<string name="defaultHP" value="측정불가"/>
+<string name="defaultMP" value="측정불가"/>
+<int name="hideHP" value="1"/>
+<float name="fs" value="10.0"/>
+<int name="ignoreMoveImpact" value="1"/>
+<int name="showNotRemoteDam" value="1"/>
+<int name="ignoreFieldOut" value="1"/>
+<string name="elemAttr" value="P2H2F2I2S2L2D2"/>
+<int name="ignoreMovable" value="1"/>
+<imgdir name="attack">
+<imgdir name="0">
+<int name="action" value="1"/>
+<int name="attackRatio" value="100"/>
+<int name="type" value="0"/>
+<int name="conMP" value="0"/>
+<int name="magic" value="1"/>
+<int name="fixDamR" value="15"/>
+<int name="onlyFsm" value="1"/>
+<int name="disease" value="123"/>
+<int name="level" value="124"/>
+</imgdir>
+<imgdir name="1">
+<int name="action" value="2"/>
+<int name="attackRatio" value="100"/>
+<int name="type" value="0"/>
+<int name="conMP" value="0"/>
+<int name="magic" value="1"/>
+<int name="fixDamR" value="20"/>
+<int name="disease" value="123"/>
+<int name="level" value="122"/>
+<int name="onlyFsm" value="1"/>
+</imgdir>
+<imgdir name="2">
+<int name="action" value="3"/>
+<int name="attackRatio" value="100"/>
+<int name="type" value="0"/>
+<int name="conMP" value="0"/>
+<int name="magic" value="1"/>
+<int name="fixDamR" value="20"/>
+<int name="onlyFsm" value="1"/>
+<int name="disease" value="126"/>
+<int name="level" value="53"/>
+</imgdir>
+<imgdir name="3">
+<int name="action" value="4"/>
+<int name="attackRatio" value="100"/>
+<int name="type" value="0"/>
+<int name="conMP" value="0"/>
+<int name="magic" value="1"/>
+<int name="fixDamR" value="5"/>
+<int name="onlyFsm" value="1"/>
+</imgdir>
+</imgdir>
+<imgdir name="firstAttackRange">
+<vector name="lt" x="-2500" y="-768"/>
+<vector name="rb" x="2500" y="768"/>
+</imgdir>
+<int name="firstAttack" value="1"/>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+</canvas>
+</imgdir>
+<imgdir name="attack1">
+<canvas name="0" width="1" height="1">
+<int name="delay" value="60"/>
+<vector name="origin" x="64" y="63"/>
+<int name="z" value="0"/>
+</canvas>
+<imgdir name="info">
+<imgdir name="hit">
+<canvas name="0" width="1" height="1">
+<int name="delay" value="60"/>
+<vector name="origin" x="64" y="63"/>
+<int name="z" value="0"/>
+</canvas>
+</imgdir>
+<imgdir name="range">
+<vector name="lt" x="-120" y="-120"/>
+<vector name="rb" x="120" y="120"/>
+</imgdir>
+<imgdir name="areaWarning">
+<canvas name="0" width="1" height="1">
+<int name="delay" value="60"/>
+<vector name="origin" x="64" y="63"/>
+<int name="z" value="0"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="attack2">
+<imgdir name="info">
+<imgdir name="range">
+<vector name="lt" x="-1" y="-1"/>
+<vector name="rb" x="1" y="1"/>
+</imgdir>
+<imgdir name="hit">
+<canvas name="0" width="172" height="180">
+<vector name="origin" x="75" y="80"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="fb4d23fbad79c88cf26b534bda8e98ebd3a24d3813bf9910206f858e2cb95453"/>
+</canvas>
+<canvas name="1" width="144" height="140">
+<vector name="origin" x="68" y="67"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="a33448002b0c2f2199286d962bbb33f29d3436ad47de59b1ec49f352a86fc35c"/>
+</canvas>
+<canvas name="2" width="144" height="140">
+<vector name="origin" x="68" y="68"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="a9785e6b71df13807b0acbc29fa31c4bbcc816d64f827bc4a9dd78e552b40b05"/>
+</canvas>
+<canvas name="3" width="140" height="140">
+<vector name="origin" x="67" y="69"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="fc7087ee2507fe133255cfe1cae184c7ad2622d025a4f75115c7f3fc646a6790"/>
+</canvas>
+</imgdir>
+<imgdir name="areaWarning">
+<canvas name="0" width="1" height="1">
+<int name="delay" value="60"/>
+<vector name="origin" x="64" y="63"/>
+<int name="z" value="0"/>
+</canvas>
+</imgdir>
+</imgdir>
+<canvas name="0" width="1" height="1">
+<int name="delay" value="60"/>
+<vector name="origin" x="64" y="63"/>
+<int name="z" value="0"/>
+</canvas>
+</imgdir>
+<imgdir name="attack3">
+<uol name="0" value="../stand/0"/>
+<int name="attackAfter" value="1770"/>
+<int name="randDelayAttack" value="12000"/>
+<imgdir name="info">
+<imgdir name="range">
+<vector name="lt" x="-125" y="-225"/>
+<vector name="rb" x="125" y="30"/>
+<int name="start" value="0"/>
+<int name="areaCount" value="11"/>
+<int name="attackCount" value="10"/>
+<int name="areaMBR" value="1"/>
+</imgdir>
+<imgdir name="hit">
+<canvas name="0" width="1" height="1">
+<int name="delay" value="60"/>
+<vector name="origin" x="64" y="63"/>
+<int name="z" value="0"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="hit1">
+<uol name="0" value="../stand/0"/>
+</imgdir>
+<imgdir name="die1">
+<canvas name="0" width="1" height="1">
+</canvas>
+</imgdir>
+<imgdir name="attack4">
+<canvas name="0" width="1" height="1">
+<int name="delay" value="3000"/>
+</canvas>
+<imgdir name="info">
+<imgdir name="hit">
+<canvas name="0" width="1" height="1">
+<int name="delay" value="3000"/>
+</canvas>
+</imgdir>
+<imgdir name="range">
+<vector name="lt" x="-57" y="-87"/>
+<vector name="rb" x="63" y="6"/>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="1210102.img">
+<imgdir name="info">
+<int name="level" value="10"/>
+<int name="bodyAttack" value="1"/>
+<int name="maxHP" value="125"/>
+<int name="maxMP" value="10"/>
+<int name="PADamage" value="41"/>
+<int name="PDRate" value="10"/>
+<int name="MADamage" value="35"/>
+<int name="MDDamage" value="10"/>
+<int name="MDRate" value="10"/>
+<int name="acc" value="10"/>
+<int name="pushed" value="10"/>
+<float name="fs" value="10.0"/>
+<int name="exp" value="17"/>
+<int name="summonType" value="1"/>
+<int name="category" value="2"/>
+<string name="mobType" value="1N"/>
+</imgdir>
+<imgdir name="move">
+<canvas name="0" width="63" height="58">
+<vector name="origin" x="32" y="55"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-32" y="-55"/>
+<vector name="rb" x="32" y="0"/>
+<vector name="head" x="-3" y="-51"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="7bd986803dfef788b320501ca5280a3457fbf60f4b8279e0c0484ceb25d1978f"/>
+</canvas>
+<canvas name="1" width="62" height="64">
+<vector name="origin" x="31" y="67"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-31" y="-67"/>
+<vector name="rb" x="31" y="-3"/>
+<vector name="head" x="-1" y="-63"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="1d3325486b84124fc9e291bf4c5c312754fec7a9f54453978d4b061df9ac7add"/>
+</canvas>
+<canvas name="2" width="64" height="55">
+<vector name="origin" x="31" y="55"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-31" y="-55"/>
+<vector name="rb" x="32" y="0"/>
+<vector name="head" x="-3" y="-51"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="c24bee2ac1a5acab378b8438130e5245c1ff8d601a57116cb1a9cec3adb4610b"/>
+</canvas>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="27" y="58"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-27" y="-58"/>
+<vector name="rb" x="36" y="0"/>
+<vector name="head" x="2" y="-54"/>
+<int name="delay" value="180"/>
+<string name="_inlink" value="move/0"/>
+</canvas>
+<canvas name="1" width="63" height="55">
+<vector name="origin" x="27" y="55"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-27" y="-55"/>
+<vector name="rb" x="36" y="0"/>
+<vector name="head" x="2" y="-51"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="b1554b5ea7ec6b95e8c7d0d7713afe9be75aa1c785117a7b09b197ad558e4ed7"/>
+</canvas>
+</imgdir>
+<imgdir name="jump">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="28" y="64"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-28" y="-64"/>
+<vector name="rb" x="34" y="0"/>
+<vector name="head" x="2" y="-61"/>
+<int name="delay" value="120"/>
+<string name="_inlink" value="move/1"/>
+</canvas>
+</imgdir>
+<imgdir name="hit1">
+<canvas name="0" width="62" height="65">
+<vector name="origin" x="28" y="65"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-28" y="-65"/>
+<vector name="rb" x="34" y="0"/>
+<int name="delay" value="300"/>
+<vector name="head" x="2" y="-61"/>
+<string name="_hash" value="4c8b25765ac81341bdbef3576b49eea84b2dc61f36acbb99ecf32cf4e3c2f865"/>
+</canvas>
+</imgdir>
+<imgdir name="die1">
+<canvas name="0" width="61" height="59">
+<vector name="origin" x="30" y="59"/>
+<int name="z" value="0"/>
+<vector name="head" x="-4" y="-42"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="4a8ca67dc6c02cc40180aa8b964125de33ad8bacf6ea11ebcd4b79304c5b9a6e"/>
+</canvas>
+<canvas name="1" width="59" height="52">
+<vector name="origin" x="32" y="52"/>
+<int name="z" value="0"/>
+<vector name="head" x="-4" y="-29"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="96ae4a680587853fb865e82573fa6e174b8793c79c1b5192170b9cfa6532a9d6"/>
+</canvas>
+<canvas name="2" width="59" height="44">
+<vector name="origin" x="34" y="44"/>
+<int name="z" value="0"/>
+<vector name="head" x="-14" y="-21"/>
+<int name="delay" value="300"/>
+<int name="a0" value="255"/>
+<int name="a1" value="0"/>
+<string name="_hash" value="fc42fb1160830cf486dc53c8c250db804f2ac54c38dbb981c9b582220654843b"/>
+</canvas>
+</imgdir>
+</imgdir>

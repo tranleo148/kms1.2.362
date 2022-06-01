@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="5010.img">
+<imgdir name="info">
+<string name="mainCategory" value="memory"/>
+<string name="subCategory" value="memory"/>
+<string name="name" value="[플래그 레이스] 메달 획득 안정권"/>
+<string name="desc" value="플래그 레이스 3등 안에 10회 이상 들기"/>
+<string name="difficulty" value="unique"/>
+<int name="score" value="40"/>
+<imgdir name="uiType">
+<string name="uiForm" value="basic"/>
+<string name="gauge" value="submission_info"/>
+<int name="gaugeMissionIndex" value="0"/>
+<string name="gaugeSubMission" value="script"/>
+</imgdir>
+</imgdir>
+<imgdir name="mission">
+<imgdir name="0">
+<string name="name" value="플래그 레이스 3등 안에 10회 이상 들기"/>
+<imgdir name="subMission">
+<imgdir name="script">
+<imgdir name="score">
+<int name="targetScore" value="10"/>
+<string name="compare" value="greater_than_or_equal_to"/>
+<string name="type" value="counting"/>
+</imgdir>
+<imgdir name="checkValue">
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

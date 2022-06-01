@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3054.img">
+<imgdir name="info">
+<string name="name" value="[더스크] 거대한 더스크와 작은 나"/>
+<string name="desc" value="노멀 더스크 1인 격파"/>
+<int name="score" value="40"/>
+<string name="mainCategory" value="battle"/>
+<string name="subCategory" value="boss"/>
+<string name="difficulty" value="unique"/>
+<imgdir name="uiType">
+<string name="gauge" value="submission_info"/>
+<string name="gaugeSubMission" value="mob_kill"/>
+</imgdir>
+</imgdir>
+<imgdir name="mission">
+<imgdir name="0">
+<string name="name" value="노멀 더스크 1인 격파"/>
+<imgdir name="subMission">
+<imgdir name="mob_kill">
+<imgdir name="score">
+<long name="targetScore" value="1"/>
+<string name="compare" value="greater_than_or_equal_to"/>
+</imgdir>
+<imgdir name="checkValue">
+<imgdir name="mob">
+<int name="mob_id" value="8644650"/>
+</imgdir>
+<imgdir name="party">
+<imgdir name="party_member_count">
+<int name="min" value="1"/>
+<int name="max" value="1"/>
+</imgdir>
+<imgdir name="enter_fieldset_party_member_count">
+<int name="min" value="1"/>
+<int name="max" value="1"/>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

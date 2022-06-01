@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3001901.img">
+<imgdir name="info">
+<int name="sayFlip" value="1"/>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<string name="_hash" value="c45097e4ac3e1c3112389425a0149c7f0977c6e608cd04e58eb72ad946f2e282"/>
+<string name="_outlink" value="Npc/3001855.img/stand/0"/>
+</canvas>
+</imgdir>
+<imgdir name="say">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<string name="_outlink" value="Npc/3001855.img/stand/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<string name="_hash" value="d2766db87923656cd34c186db694a5c6872e94d780344b67d10cd5cc2b336676"/>
+<string name="_outlink" value="Npc/3001855.img/say/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<string name="_hash" value="6dd31a71914089bc8e3a0d6d702a60e62bc8b66dfa7b1234402f58f71ed50e7f"/>
+<string name="_outlink" value="Npc/3001855.img/say/2"/>
+</canvas>
+</imgdir>
+<imgdir name="blink">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<int name="delay" value="200"/>
+<string name="_outlink" value="Npc/3001855.img/stand/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<int name="delay" value="200"/>
+<string name="_hash" value="97657622223d05cdc43ad55a82883bf4674e7b22bedaeeb098f7cc50f6deb24b"/>
+<string name="_outlink" value="Npc/3001855.img/blink/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<int name="delay" value="200"/>
+<string name="_outlink" value="Npc/3001855.img/stand/0"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<int name="delay" value="200"/>
+<string name="_outlink" value="Npc/3001855.img/blink/1"/>
+</canvas>
+</imgdir>
+<imgdir name="condition2">
+<imgdir name="39660 ">
+<imgdir name="0">
+<string name="value" value="h0"/>
+<string name="key" value="01"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="say" value="../say"/>
+<uol name="blink" value="../blink"/>
+<int name="hide" value="1"/>
+</imgdir>
+<imgdir name="condition3">
+<imgdir name="39660 ">
+<imgdir name="0">
+<string name="value" value="h1"/>
+<string name="key" value="01"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="say" value="../say"/>
+<uol name="blink" value="../blink"/>
+</imgdir>
+</imgdir>

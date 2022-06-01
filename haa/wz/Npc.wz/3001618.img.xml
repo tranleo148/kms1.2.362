@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3001618.img">
+<imgdir name="info">
+<int name="hideName" value="1"/>
+<imgdir name="speak">
+<string name="0" value="n0"/>
+<string name="1" value="n1"/>
+</imgdir>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="69" height="55">
+<vector name="origin" x="28" y="55"/>
+<int name="z" value="0"/>
+<string name="_hash" value="39c3fc765eeb1de985cff69fd49a75cf4c36e375137c63c273c828626a19dc6d"/>
+</canvas>
+</imgdir>
+<imgdir name="special0">
+<canvas name="0" width="54" height="65">
+<vector name="origin" x="19" y="65"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ab2b9f012ae1e214fb2be121997c2fa806bd7957dc1d3d945fedfa127415e82a"/>
+</canvas>
+<canvas name="1" width="54" height="65">
+<vector name="origin" x="19" y="65"/>
+<int name="z" value="0"/>
+<string name="_hash" value="6fc953e1a174d28445adf86c7bc2e2db3b78417754967263891f76fb0f1c0993"/>
+</canvas>
+<canvas name="2" width="54" height="65">
+<vector name="origin" x="19" y="65"/>
+<int name="z" value="0"/>
+<string name="_hash" value="60fc4946c1bdc72bc5a0385fa659d7b89bed4b4f6de41ef56add8561e75e45fa"/>
+</canvas>
+<int name="special" value="1"/>
+</imgdir>
+<imgdir name="special1">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="19" y="65"/>
+<int name="z" value="0"/>
+<string name="_inlink" value="special0/0"/>
+</canvas>
+<int name="special" value="1"/>
+</imgdir>
+<imgdir name="condition2">
+<imgdir name="39598">
+<imgdir name="0">
+<string name="key" value="18"/>
+<string name="value" value="h0"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="special0" value="../special0"/>
+<uol name="special1" value="../special1"/>
+<int name="hide" value="1"/>
+</imgdir>
+<imgdir name="condition3">
+<imgdir name="39598">
+<imgdir name="0">
+<string name="key" value="18"/>
+<string name="value" value="h1"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="special0" value="../special0"/>
+<uol name="special1" value="../special1"/>
+</imgdir>
+</imgdir>

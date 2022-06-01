@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9833719.img">
+<imgdir name="info">
+<int name="level" value="1"/>
+<int name="maxHP" value="103100"/>
+<int name="maxMP" value="3000"/>
+<int name="speed" value="0"/>
+<int name="PADamage" value="0"/>
+<int name="PDDamage" value="0"/>
+<int name="PDRate" value="0"/>
+<int name="MADamage" value="0"/>
+<int name="MDDamage" value="0"/>
+<int name="ignoreMovable" value="1"/>
+<int name="ignoreMoveImpact" value="1"/>
+<int name="MDRate" value="0"/>
+<int name="acc" value="1"/>
+<int name="eva" value="1"/>
+<int name="pushed" value="1400"/>
+<float name="fs" value="10.0"/>
+<int name="summonType" value="1"/>
+<string name="elemAttr" value="H2"/>
+<string name="mobType" value="7N"/>
+<int name="summonEffect" value="1"/>
+<imgdir name="changeImg">
+<imgdir name="0">
+<int name="hpMin" value="70"/>
+<int name="hpMax" value="85"/>
+<int name="mobID" value="9833720"/>
+</imgdir>
+<imgdir name="1">
+<int name="hpMin" value="55"/>
+<int name="hpMax" value="70"/>
+<int name="mobID" value="9833721"/>
+</imgdir>
+<imgdir name="2">
+<int name="hpMin" value="40"/>
+<int name="hpMax" value="55"/>
+<int name="mobID" value="9833722"/>
+</imgdir>
+<imgdir name="3">
+<int name="hpMin" value="25"/>
+<int name="hpMax" value="40"/>
+<int name="mobID" value="9833723"/>
+</imgdir>
+<imgdir name="4">
+<int name="hpMin" value="10"/>
+<int name="hpMax" value="25"/>
+<int name="mobID" value="9833724"/>
+</imgdir>
+<imgdir name="5">
+<int name="hpMin" value="0"/>
+<int name="hpMax" value="10"/>
+<int name="mobID" value="9833725"/>
+</imgdir>
+</imgdir>
+<int name="noFlip" value="1"/>
+<int name="underObject" value="1"/>
+<int name="fixedDamage" value="1031"/>
+<int name="boss" value="1"/>
+<int name="HPgaugeHide" value="1"/>
+<int name="hideHP" value="1"/>
+<int name="HPFieldGaugeHide" value="1"/>
+</imgdir>
+<imgdir name="hit1">
+<canvas name="0" width="503" height="541">
+<vector name="origin" x="262" y="504"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-180" y="-351"/>
+<vector name="rb" x="226" y="13"/>
+<vector name="head" x="-12" y="-206"/>
+<string name="_hash" value="1c02cb62e1dadad7e953d081c2160555a610bd71436f47e9ae62905095ad1f26"/>
+</canvas>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="262" y="504"/>
+<int name="z" value="0"/>
+<vector name="lt" x="-180" y="-351"/>
+<vector name="rb" x="226" y="13"/>
+<vector name="head" x="-12" y="-206"/>
+<string name="_inlink" value="hit1/0"/>
+</canvas>
+</imgdir>
+<imgdir name="die1">
+<canvas name="0" width="503" height="541">
+<vector name="origin" x="262" y="504"/>
+<int name="z" value="0"/>
+<int name="delay" value="800"/>
+<int name="a0" value="255"/>
+<int name="a1" value="0"/>
+<string name="_hash" value="b79731a52e0ae85ef8e8b411f8e06d61b0fc3bb3d5f12c3bd36c6d0eeebe7896"/>
+</canvas>
+</imgdir>
+</imgdir>

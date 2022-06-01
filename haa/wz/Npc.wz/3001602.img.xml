@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3001602.img">
+<imgdir name="info">
+<imgdir name="sit">
+<canvas name="0" width="72" height="68">
+<vector name="origin" x="31" y="78"/>
+<int name="z" value="0"/>
+<string name="_hash" value="c7c46ca87eba3e628aa2b0ff4836e92da72494c299c0ee8b434bc11e6a9877c2"/>
+</canvas>
+</imgdir>
+<imgdir name="sit_say">
+</imgdir>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="31" y="78"/>
+<int name="z" value="0"/>
+<string name="_inlink" value="info/sit/0"/>
+</canvas>
+</imgdir>
+<imgdir name="say">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="31" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_inlink" value="info/sit/0"/>
+</canvas>
+<canvas name="1" width="72" height="68">
+<vector name="origin" x="31" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_hash" value="681762873bbf80f9e98473dffcdaa5d1fbef5746156fef3bb519de8b54699a49"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="31" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_inlink" value="info/sit/0"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="31" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_inlink" value="say/1"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="31" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="240"/>
+<string name="_inlink" value="info/sit/0"/>
+</canvas>
+</imgdir>
+<imgdir name="condition2">
+<imgdir name="39598">
+<imgdir name="0">
+<string name="key" value="02"/>
+<string name="value" value="h0"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="say" value="../say"/>
+<int name="hide" value="1"/>
+</imgdir>
+<imgdir name="condition3">
+<imgdir name="39598">
+<imgdir name="0">
+<string name="key" value="02"/>
+<string name="value" value="h1"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="say" value="../say"/>
+</imgdir>
+</imgdir>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="8880634.img">
+<imgdir name="info">
+<int name="level" value="275"/>
+<int name="maxHP" value="2100000000"/>
+<int name="maxMP" value="100000"/>
+<int name="speed" value="-60"/>
+<int name="PADamage" value="22000"/>
+<int name="PDDamage" value="600"/>
+<int name="PDRate" value="380"/>
+<int name="MADamage" value="24000"/>
+<int name="MDDamage" value="450"/>
+<int name="MDRate" value="380"/>
+<int name="acc" value="9999"/>
+<int name="eva" value="750"/>
+<int name="pushed" value="1000000000"/>
+<int name="boss" value="1"/>
+<int name="exp" value="0"/>
+<int name="summonType" value="12"/>
+<int name="category" value="8"/>
+<int name="mpRecovery" value="10000"/>
+<string name="mobType" value="1N"/>
+<string name="defaultHP" value="측정불가"/>
+<string name="defaultMP" value="측정불가"/>
+<int name="hideHP" value="1"/>
+<float name="fs" value="10.0"/>
+<int name="ignoreMoveImpact" value="1"/>
+<int name="showNotRemoteDam" value="1"/>
+<int name="ignoreFieldOut" value="1"/>
+<string name="elemAttr" value="P2H2F2I2S2L2D2"/>
+<int name="ignoreMovable" value="1"/>
+<imgdir name="attack">
+<imgdir name="0">
+<int name="action" value="1"/>
+<int name="attackRatio" value="100"/>
+<int name="type" value="3"/>
+<int name="conMP" value="0"/>
+<int name="magic" value="1"/>
+<int name="fixDamR" value="25"/>
+<int name="onlyFsm" value="1"/>
+<int name="disease" value="123"/>
+<int name="level" value="116"/>
+</imgdir>
+</imgdir>
+<int name="notDamaged" value="1"/>
+<imgdir name="firstAttackRange">
+<vector name="lt" x="-2500" y="-768"/>
+<vector name="rb" x="2500" y="768"/>
+</imgdir>
+<int name="firstAttack" value="1"/>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+</canvas>
+</imgdir>
+<imgdir name="hit1">
+<uol name="0" value="../stand/0"/>
+</imgdir>
+<imgdir name="die1">
+<canvas name="0" width="1" height="1">
+</canvas>
+</imgdir>
+<imgdir name="attack1">
+<imgdir name="info">
+<imgdir name="range">
+<vector name="lt" x="-105" y="-800"/>
+<vector name="rb" x="105" y="5"/>
+<int name="start" value="0"/>
+<int name="areaCount" value="11"/>
+<int name="attackCount" value="10"/>
+<int name="areaMBR" value="1"/>
+</imgdir>
+<imgdir name="areaWarning">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="108" y="722"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="d529d3c414a9f3fdc3fe0f174a49b76ab7ec2081eea503ad4fdb52c5307ad36b"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="110" y="727"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="f37b49d27bbca5837cc52113e9ffae1c6ce083012dd16d11e857cc954ecc3fbd"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="110" y="740"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="9fa22130e3cf32b53a44ac0ff7ae03c2788eea5eb2841291fe2789b6d537cb20"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="153" y="771"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="c0f10ac18e77b17ea6cb9f95ca08fa5f24e36d50890035063d6683fd1f9d047b"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="161" y="757"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="e978483a46928d9db6ec9ecd9ebbcdfbe727bce8b47d5de6da2ac54a2a13f227"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="170" y="764"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="2070bbc899b8e314056684cd07caf4e7c676619efc52124d9632a867dba56d5a"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="170" y="763"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="8379dc68779d89d96b62ccd627b98ce75be40e3e2109629d35a814f5c361e919"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="166" y="759"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="be3b6b145aaf9541cef699e2f57341dc7d92c0d16fc25bd2a943ca9e3898a8e5"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/7"/>
+</canvas>
+<canvas name="8" width="1" height="1">
+<vector name="origin" x="137" y="753"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="b47d892f9278710ec69cfb537acbd86f5cc8c400ff7f9e75ab9727150df3048a"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/8"/>
+</canvas>
+<canvas name="9" width="1" height="1">
+<vector name="origin" x="116" y="744"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="d566cd9423506efeac7665eb95c4b565069cc6c283773d6a1f010058810265a1"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/9"/>
+</canvas>
+<canvas name="10" width="1" height="1">
+<vector name="origin" x="114" y="732"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="fa549db54137d4eff46b9b9e3fb23ac2b4dbf2f982f97f1a1ad388783970663f"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/10"/>
+</canvas>
+<canvas name="11" width="1" height="1">
+<vector name="origin" x="107" y="729"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="e536ca1a701813f5781f468aefbdf856398be1129057b2c8647d492ee2253b2a"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/11"/>
+</canvas>
+<canvas name="12" width="1" height="1">
+<vector name="origin" x="105" y="741"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="ac52b6c2cdc907832ec8a54621d72febe8f02c457ce9aa56124afcb0e8077071"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/12"/>
+</canvas>
+<canvas name="13" width="1" height="1">
+<vector name="origin" x="105" y="753"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="6ae286de0c108a6f886892b85c9e3a06e3f7edebbdbcc596e17a6ea440b7cbd8"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/13"/>
+</canvas>
+<canvas name="14" width="1" height="1">
+<vector name="origin" x="113" y="758"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="3d7d66e1c094cb7569c81fa1da927d5e18cc0f2c363d8aa03069e3e457240c07"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/14"/>
+</canvas>
+<canvas name="15" width="1" height="1">
+<vector name="origin" x="114" y="755"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="8a6ba503156d3457a8ee7121e4a303407a1e1d8f51438e6c3db5c2434c4fc69f"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/15"/>
+</canvas>
+<canvas name="16" width="1" height="1">
+<vector name="origin" x="115" y="753"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="8633ce40698d51651e67686eebbcd98ba449119936e560245e6b1f4d8af49fe2"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/16"/>
+</canvas>
+<canvas name="17" width="1" height="1">
+<vector name="origin" x="116" y="753"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="6a2d1e5832c532f3aab0cc1f36e993659bdd578d9a0b52c64d086417b8ad7758"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/17"/>
+</canvas>
+<canvas name="18" width="1" height="1">
+<vector name="origin" x="114" y="726"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="16f9b4d2bd50190c6a6a4a4260b114c06a2906a740b9d51ce5e66818d2f53876"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/18"/>
+</canvas>
+<canvas name="19" width="1" height="1">
+<vector name="origin" x="107" y="620"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="c75db88ce1ea6d2aca80f3adce2063cace70cc3d205664279a7ade1537afad29"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/19"/>
+</canvas>
+<canvas name="20" width="1" height="1">
+<vector name="origin" x="105" y="410"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="117cacf78584d32cb276b865502457d0f0dcfd65e73f6f34a5537a3bed549821"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/20"/>
+</canvas>
+<canvas name="21" width="1" height="1">
+<vector name="origin" x="106" y="283"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="380a7c1be27b82c7bbaadcbf83b311faaa2a69cb9484037711d9d1fcd43e3c1f"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/21"/>
+</canvas>
+<canvas name="22" width="1" height="1">
+<vector name="origin" x="105" y="530"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="f808a4e39e1d182a14526db05899c27ee0510fcbd2316255005a87d6c78a1893"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/22"/>
+</canvas>
+<canvas name="23" width="1" height="1">
+<vector name="origin" x="133" y="644"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="ac588c867ddd6de51ef815f6bf150662dd651d0c86010de84f8bbab76ac5fddd"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/23"/>
+</canvas>
+<canvas name="24" width="1" height="1">
+<vector name="origin" x="130" y="615"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="e73e207efcae98b7809a58caa9d97f94fea41b2c2da7d53941d619854a3fc700"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/24"/>
+</canvas>
+<canvas name="25" width="1" height="1">
+<vector name="origin" x="127" y="630"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="34c542afb542ea29caa6e93b7b2c65939cdd31caf7f594fdc0f7f34fcc176bdf"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/25"/>
+</canvas>
+<canvas name="26" width="1" height="1">
+<vector name="origin" x="122" y="620"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="b2410f5155883491f39b77b58c17349761b455a80389c2bff04ed5bd43a70a1a"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/26"/>
+</canvas>
+<canvas name="27" width="1" height="1">
+<vector name="origin" x="123" y="622"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="20e65d7f657bc9a8f2205d3388d279a38ec51f89952fc9a1c3061c7345931096"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/27"/>
+</canvas>
+<canvas name="28" width="1" height="1">
+<vector name="origin" x="121" y="632"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="9bb9b87587f247827f4f51878645cef8cdc683778181d89548264b97c1ca1e8d"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/28"/>
+</canvas>
+<canvas name="29" width="1" height="1">
+<vector name="origin" x="121" y="626"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="4c551c78788935cf0df9698d8ad1ec9149d94f85cc23d7945b4439aa5a49ff96"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/29"/>
+</canvas>
+<canvas name="30" width="1" height="1">
+<vector name="origin" x="123" y="625"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="64e3e2741dd7a823a2e59842953ecf329a161123764d62b0dfa116fc408cdcbe"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/30"/>
+</canvas>
+<canvas name="31" width="1" height="1">
+<vector name="origin" x="123" y="632"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="b8de66695373e96a1026715478bac9855687cbf1770b9ba7ca03fed35c4c63de"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/31"/>
+</canvas>
+<canvas name="32" width="1" height="1">
+<vector name="origin" x="119" y="628"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="73f06e6a38ab740c4691910e500b389643c7a5d791f1f465de48c54089e1298d"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/32"/>
+</canvas>
+<canvas name="33" width="1" height="1">
+<vector name="origin" x="109" y="629"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="2888d0727b5c137f0d1a837f2edf54816b2c26cc9a3749672b07fd626d94a36f"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/33"/>
+</canvas>
+<canvas name="34" width="1" height="1">
+<vector name="origin" x="11" y="632"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="8fdbc66c930571d95d156503ce935ce58b5bb2c67b55b20e55f2b4f0152ffd41"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/34"/>
+</canvas>
+<canvas name="35" width="1" height="1">
+<vector name="origin" x="8" y="637"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="4fe27869b31b9e1ae0c9206e149560a182c0f4d101839f4e723c2b79ff71b351"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/areaWarning/35"/>
+</canvas>
+</imgdir>
+<imgdir name="hit">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="89" y="87"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="a8aceca7646b4c0376ba66230696d4f0f52cac3ee226abdbe76a12ef0c1a1556"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/hit/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="90" y="90"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="eb15cb176f865ad913a79bff5828c184367126023d6a416ea4a4b881826e84ac"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/hit/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="100" y="94"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="08647358f9c4c3d6400cd8f2f462ec47ecc991422d65ea135cd6cf0b621a01ef"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/hit/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="102" y="96"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="c2c61d4dfd31fdcaf680261a5c27316ea88aad91780910c1d0a004bf58e5e918"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/hit/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="105" y="98"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="1d7df96c59e20058633c83a7bf976fcbfef45d59f761e219a4c62487484be0b0"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/hit/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="85" y="84"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="d3efa0ac270a301ff2b9b949111ea10a14b5414df949cdf79e9666348ce9aacb"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/hit/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="86" y="85"/>
+<int name="z" value="0"/>
+<int name="delay" value="60"/>
+<string name="_hash" value="66fbeba53e88e974cf80b09857e8ca2fe5867b1ab93e45ce28b7d8c85607967b"/>
+<string name="_outlink" value="Mob/8880604.img/attack1/info/hit/6"/>
+</canvas>
+</imgdir>
+<int name="attackAfter" value="1380"/>
+<int name="randDelayAttack" value="12600"/>
+</imgdir>
+<canvas name="0" width="1" height="1">
+<int name="delay" value="3000"/>
+</canvas>
+</imgdir>
+</imgdir>

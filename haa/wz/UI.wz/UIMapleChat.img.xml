@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="UIMapleChat.img">
+<imgdir name="socialChat">
+<canvas name="backgrnd" width="640" height="549">
+<vector name="origin" x="1" y="1"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="8c8b9ec998aef8845cf73249bf55efbc3f858b6251130e5ef406f59379dd0aee"/>
+</canvas>
+<canvas name="backgrnd2" width="620" height="516">
+<int name="z" value="-4"/>
+<vector name="origin" x="-9" y="-21"/>
+<string name="_hash" value="9a7be15779bf9240c4aed806f1405f0679cf1247dca5145a6ed4078d7dfe953d"/>
+</canvas>
+<canvas name="backgrnd3" width="610" height="461">
+<vector name="origin" x="-14" y="-71"/>
+<int name="z" value="-3"/>
+<string name="_hash" value="0a2772bcb5648fa75cb926753b6af15aefb4d5a682947638274f576b53825179"/>
+</canvas>
+<canvas name="backgrnd4" width="407" height="462">
+<vector name="origin" x="-115" y="-70"/>
+<int name="z" value="-3"/>
+<string name="_hash" value="93efa57c6b004dd00eb24dd0ec2a21c08fe3ebefa6087334061af4ff2c3982d9"/>
+</canvas>
+<canvas name="charMask" width="44" height="50">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="5541e624289d64f71ec11c4314e1e193c5aaa14b8d91325385e79405f586c240"/>
+</canvas>
+<canvas name="charFace" width="44" height="44">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="2813a29d8da59e8be0e7865b8f322e7a8bf30983a53998eace9b93839cd9e231"/>
+</canvas>
+<canvas name="charWhisperFace" width="44" height="44">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e29f741bcce607add03d859977956f7d512adb3611b260f30606e7c12b2034c9"/>
+</canvas>
+<canvas name="closeSlot" width="100" height="151">
+<vector name="origin" x="-14" y="-72"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e4f424a2b85ee62209870ee5d58f0ae384bba98368dab8fbc451a2273390a35c"/>
+</canvas>
+<vector name="max_chatOutputLT" x="118" y="74"/>
+<vector name="max_chatOutputRB" x="518" y="495"/>
+<vector name="max_chatEditPos" x="150" y="506"/>
+<imgdir name="characterSlot">
+<canvas name="0" width="100" height="151">
+<vector name="origin" x="-13" y="-72"/>
+<int name="z" value="0"/>
+<string name="_hash" value="7b47c77031447b26ba679f7c91266af7eb78f0963c3e12b54064ea8700ec5bfa"/>
+</canvas>
+<canvas name="1" width="100" height="151">
+<vector name="origin" x="-523" y="-72"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e59f9aa531ac4309b0b3b1271f9651d554549a964cea7570e7e0e47587292c3e"/>
+</canvas>
+<canvas name="2" width="100" height="151">
+<vector name="origin" x="-13" y="-227"/>
+<int name="z" value="0"/>
+<string name="_hash" value="5cef0100842909e24c0f53e215be8b031eaac55dd0e53bc75b84d44cd354acbe"/>
+</canvas>
+<canvas name="3" width="100" height="151">
+<vector name="origin" x="-523" y="-227"/>
+<int name="z" value="0"/>
+<string name="_hash" value="b5a15e8c1b15927e5a4a659b0bc1fa45a94d41fb7b0b43f485a2b3a64c393d5d"/>
+</canvas>
+<canvas name="4" width="100" height="151">
+<int name="z" value="0"/>
+<vector name="origin" x="-13" y="-382"/>
+<string name="_hash" value="18edf220c357506cd0a3b08c935c139eda16d881cedbecd4a560e0d605bbd4ef"/>
+</canvas>
+<canvas name="5" width="100" height="151">
+<vector name="origin" x="-523" y="-382"/>
+<int name="z" value="0"/>
+<string name="_hash" value="455206ad852a02acdc4974aae9bce4847f1d62bb63db38f7f2082b45f9525786"/>
+</canvas>
+<vector name="namePos" x="45" y="126"/>
+<vector name="avatarPos" x="46" y="110"/>
+<vector name="talkingPos" x="-22" y="43"/>
+</imgdir>
+<imgdir name="talking">
+<canvas name="0" width="42" height="33">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="71f270be1b8d3f63d352af3c8416022986dc6314604436dda2e39dbd3884e3ce"/>
+</canvas>
+<canvas name="1" width="42" height="33">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="55a69010e6b6de5b378133bfe2f13dcfcfe13faddc20c449849975ee1ba53309"/>
+</canvas>
+<canvas name="2" width="42" height="33">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="8bcef4316b2ff9ca5c2fa92eb95907e62a4a373aeb66015fa086ea0e1275e980"/>
+</canvas>
+<canvas name="3" width="42" height="33">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="9dfdacda265a6a3a700cdef976caa33056b37a2876c58ff336256a27b51a1e77"/>
+</canvas>
+<canvas name="4" width="42" height="33">
+<int name="z" value="0"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="1881ef79aa6e2273fe380cd4ce65b6245177d4b9ae12e5fe56cd2d2ede09fa0e"/>
+</canvas>
+<canvas name="5" width="42" height="33">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="b16bcb1a2befee5616677a819cad3d7c09b55380a6240811ba372b9f5abd6ccd"/>
+</canvas>
+<canvas name="6" width="42" height="33">
+<int name="z" value="0"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="360c9ff703b9137d4c3d44ff4083fce881c955eaa57e53231810287490bb2b39"/>
+</canvas>
+<canvas name="7" width="42" height="33">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="8520368c79d95c218f2c893cee9f08f0a583f7ac23582f9f3960d8172b8a2af6"/>
+</canvas>
+</imgdir>
+<imgdir name="noticeBg">
+<canvas name="left" width="21" height="28">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="2ec27275dace77385c35b9d819aa019726a847904d164598eca7550dff2b3fd4"/>
+</canvas>
+<canvas name="center" width="1" height="28">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="right" width="21" height="28">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e8fdf3219dd0a124cb8bd32bc439d4f0310cac80dac594bfb08814df920c4d29"/>
+</canvas>
+</imgdir>
+<imgdir name="speechBalloon">
+<imgdir name="0">
+<canvas name="nw" width="10" height="10">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="75201deec641561c6a7274bf8de6ab18926c726a35ef24975b1ebc2a57a85662"/>
+</canvas>
+<canvas name="w" width="10" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="sw" width="10" height="10">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="62c61846777bb810167c7db1147dccb938472f6dc6460be1175f305bee65bfd4"/>
+</canvas>
+<canvas name="ne" width="10" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="1279b5598bcfa591173be63ff3ec6089c8149c217a007c106b65e88c6395e8f7"/>
+</canvas>
+<canvas name="e" width="10" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="se" width="10" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="0e0c09cfeb81dd37964945ac6190281252a43b8c34365f05770612ea14e464b8"/>
+</canvas>
+<canvas name="n" width="1" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="c" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="s" width="1" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="arrow" width="1" height="1">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/0/nw"/>
+</canvas>
+</imgdir>
+<imgdir name="1">
+<canvas name="nw" width="10" height="10">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="f7506c40222d6e39653dc212c98ce2b3a07ce381870e3d74a432b6d8b3f62c4a"/>
+</canvas>
+<canvas name="w" width="10" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="sw" width="1" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="2bad002f03f16e6c0cad06ea7e3ebf45d305ef8003f655c5c688c0ade68361e5"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messenger/1/sw"/>
+</canvas>
+<canvas name="ne" width="10" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="59bce34116cd11f8960421f64f19f05e16102cc9d0be295ad02470979f78dc17"/>
+</canvas>
+<canvas name="e" width="10" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="se" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="a8c67a7be9edfe60b495b6f2c78db8f63f02e0f67c4fc29b3feea576e665d6a9"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messenger/1/se"/>
+</canvas>
+<canvas name="n" width="1" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="c" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="s" width="1" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="arrow" width="1" height="1">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/1/ne"/>
+</canvas>
+</imgdir>
+<imgdir name="2">
+<canvas name="nw" width="10" height="10">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="4be7e1303c130c608f638c28b8177e576f12524e185405275fc81f07ee7536f0"/>
+</canvas>
+<canvas name="w" width="10" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="sw" width="10" height="10">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="93facb67e46bd3b7b5d8d3c497c2a1850efffbc6cd4d946b83aee82aed63c9e0"/>
+</canvas>
+<canvas name="ne" width="10" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="7d8b03e01b0079ac31dc38c0f3823b423f26980ce97438ac51109418034c568a"/>
+</canvas>
+<canvas name="e" width="10" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="se" width="10" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="7f64fe980453cd0e9aa9de5d337121deddb8cdae3e2483647b9a1483c88021de"/>
+</canvas>
+<canvas name="n" width="1" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="c" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="s" width="1" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="arrow" width="1" height="1">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/2/nw"/>
+</canvas>
+</imgdir>
+<imgdir name="3">
+<canvas name="nw" width="10" height="10">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="3471e9a2981cf7abc8790ad19c40d06f4f07b91db496f11fb52abcb8d1fc5dc8"/>
+</canvas>
+<canvas name="w" width="10" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="sw" width="1" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="536312910ba3f98b25d7bdb340cb60201fe8930c811ea0f30770bbf850428504"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messenger/3/sw"/>
+</canvas>
+<canvas name="ne" width="10" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="27c046d0153a9f6adfa1e8d5ae5cc8f7a3ae58bd6761a7b56a42e52cc657b9bc"/>
+</canvas>
+<canvas name="e" width="10" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="se" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="ef11fedc3d1446deebf51fcf3de6efb41254fe735e30f7e9da268e801a76d7e1"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messenger/3/se"/>
+</canvas>
+<canvas name="n" width="1" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="c" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="s" width="1" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="arrow" width="1" height="1">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/3/ne"/>
+</canvas>
+</imgdir>
+<imgdir name="4">
+<canvas name="nw" width="10" height="10">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="225e17aaeaa2366501407f29b5e5c80cc26f7d67c787875673bbf73dc0ddbbb3"/>
+</canvas>
+<canvas name="w" width="10" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="sw" width="10" height="10">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="b1be4199a41f829def60ee4ace930cce46fc8d9b2b08b666ada00d4832bc60aa"/>
+</canvas>
+<canvas name="ne" width="10" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="b047c30f25ea23771ed153138e9f2cb096c71be6dd50692ebb688c6cf142ee44"/>
+</canvas>
+<canvas name="e" width="10" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="se" width="10" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="a6fc8d871239c247ff1cd39d3812caff9eccf3f84555e30fc028cb97069388cf"/>
+</canvas>
+<canvas name="n" width="1" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="c" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="s" width="1" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="arrow" width="1" height="1">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/4/nw"/>
+</canvas>
+</imgdir>
+<imgdir name="5">
+<canvas name="nw" width="10" height="10">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="eac4e840c9578b76a2195e663e34e07e2bf0eaa79a7022c473783729cb39ee55"/>
+</canvas>
+<canvas name="w" width="10" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="sw" width="1" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="134a79954bb43d5f500ecc5b42f5d33854c34805c7e5069321242b662d1a3979"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messenger/5/sw"/>
+</canvas>
+<canvas name="ne" width="10" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="372a854e2aa6ef4b1c75dd901b595107db20464d13e7bf542f8dd475bb95a85b"/>
+</canvas>
+<canvas name="e" width="10" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="se" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="4b3796410affb1e879a0b0152616a47d32dc87cfcc6ef760b98e7b97488bb064"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messenger/5/se"/>
+</canvas>
+<canvas name="n" width="1" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="c" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="s" width="1" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="arrow" width="1" height="1">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/5/ne"/>
+</canvas>
+</imgdir>
+<imgdir name="leftWhisper">
+<canvas name="nw" width="10" height="10">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="e1c3b254b113fa788b22c333441782621d78425ee700e9fc7fdd3c1153033fad"/>
+</canvas>
+<canvas name="w" width="10" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="sw" width="1" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="5f96f44783779d0e7c4ea96b42daf58889ff72e00fbe5e739fb1dce18b798ea7"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messengerWhisper/0/sw"/>
+</canvas>
+<canvas name="ne" width="10" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="3d2c9c8e33bc1a89db53be7cdb72d9f66215c92040d182ee7d358623b37c835b"/>
+</canvas>
+<canvas name="e" width="10" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="se" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="df84293adf668ac6b765f879d9decd94451bc0de220787576f6c2f3afac2072f"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messengerWhisper/0/se"/>
+</canvas>
+<canvas name="n" width="1" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="c" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="s" width="1" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="arrow" width="1" height="1">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/leftWhisper/nw"/>
+</canvas>
+</imgdir>
+<imgdir name="rightWhisper">
+<canvas name="nw" width="10" height="10">
+<vector name="origin" x="10" y="10"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="6c7b5ed8ab5b09e4d4f1c39cf2d058c09abec154a28f180f9e8ee3d29bc57c85"/>
+</canvas>
+<canvas name="w" width="10" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="sw" width="1" height="1">
+<vector name="origin" x="10" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="0adc5b86c1db869374673b177dd96affe3d104d06fa4a9259a69eccdc1641bb7"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messengerWhisper/1/sw"/>
+</canvas>
+<canvas name="ne" width="1" height="1">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/leftWhisper/nw"/>
+</canvas>
+<canvas name="e" width="10" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="se" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="d6ff88604a95b2e4aa02981ab2a6ac60c448da7411b58e3a9de41d7577b409da"/>
+<string name="_outlink" value="UI/ChatBalloon.img/messengerWhisper/1/se"/>
+</canvas>
+<canvas name="n" width="1" height="10">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="c" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="s" width="1" height="10">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+</canvas>
+<canvas name="arrow" width="1" height="1">
+<vector name="origin" x="0" y="10"/>
+<int name="z" value="-5"/>
+<string name="_inlink" value="socialChat/speechBalloon/leftWhisper/nw"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="whisperBg">
+<string name="0" value="FFA9C546"/>
+<string name="1" value="FF2BA5BB"/>
+<string name="2" value="FFBBBBBB"/>
+<string name="3" value="FF7F64C2"/>
+<string name="4" value="FFE34F7C"/>
+<string name="5" value="FF666666"/>
+</imgdir>
+<imgdir name="scrollImage">
+<imgdir name="enabled">
+<canvas name="prev0" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+<canvas name="prev1" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+<canvas name="prev2" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+<canvas name="base" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+<canvas name="thumb0" width="5" height="32">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="e4f4408193c919e33fc8ad06b5726adbe53dff8972666b3b61848873d603ff09"/>
+</canvas>
+<canvas name="thumb1" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/scrollImage/enabled/thumb0"/>
+</canvas>
+<canvas name="thumb2" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/scrollImage/enabled/thumb0"/>
+</canvas>
+<canvas name="next0" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+<canvas name="next1" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+<canvas name="next2" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="prev" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+<canvas name="base" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+<canvas name="next" width="5" height="4">
+<vector name="origin" x="0" y="0"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="scrollInfo">
+<int name="length" value="412"/>
+<int name="wheelRange" value="385"/>
+<int name="id" value="1010"/>
+<string name="path" value="UI/UIMapleChat.img/socialChat/scrollImage"/>
+<vector name="lt" x="507" y="80"/>
+</imgdir>
+<imgdir name="rightMenu">
+<canvas name="backgrnd" width="82" height="88">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="ef1693efa4907908de1b318c649e69e8550ff8e45c081a628e60c17ba74bca17"/>
+</canvas>
+<imgdir name="userInfo">
+<imgdir name="normal">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="ea655112a9f4ae457b8c4c615bfdd7ddb827d519205a7680efd4ed1fd7dd5024"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="12c9c6732c0ba61e9699bda347b53d3deb1e802fac5d968bd81eb2c395cfabf3"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="bedbacdecc78b5182a99c8e4ffdd9205eb806e770a71d06746d6257421d9ed80"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="whisper">
+<imgdir name="normal">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="d05669ac924a915b479083486d24332343d352d18350ee6ba616e0867fd0152f"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="13afb316fc291703f79ec3ba7eb55dd844623cfa5bddca1ba4e113eb8c822609"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="44a1d9394bca339d979f242f4b86bb7e6f4fa79ba3100152695dac636aeca5eb"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="addFriends">
+<imgdir name="normal">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="d86eb546a526d241fbf4b2e08f282d7c85da83ec6346969a8361bd9bfffc6e0b"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="c9e5f93784e4db9749145408876f857faf8c993e53b3e775623d844b467fad36"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="2c1c84d407daa23c03e6325d7a9f80ecf7a54abdd99fe1e672e4522bf35f3af7"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="socialPoint">
+<imgdir name="normal">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="909a11dd9a642b6583b80ff52c9ec17459379bd57090f58857ac32da2a50ff7f"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="082267f05727596dba599ab142f5d0c6c1d587403c43c1358d8757cc2c075b55"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="74b2e3ee9bfd1b3f5023878addcf21f8a218c9d2321218a68be3f94363df29d0"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="clame">
+<imgdir name="normal">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="918f78d6ecbeb35613866125f3a11d734621b9282d6712163cf69b078c1707cd"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="32c78edd51724b74c736c3c58548ea218ee8f97f8cfd74895dcdc09c08cd713d"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="78" height="16">
+<vector name="origin" x="-2" y="0"/>
+<string name="_hash" value="28dbaf58c80726b1b7f3fba447e9667e4f31fcadb50d6c9a6e054f624c948fe7"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="btX">
+<imgdir name="normal">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-617" y="-1"/>
+<string name="_hash" value="ff392b9672f480ae2d4f0b0506601dded3448b085aae429be9329b79337b5582"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/normal/0"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-619" y="-3"/>
+<string name="_hash" value="3e8bbbdd154607e279306c864666b75ced6032117e5c9a14856185790f59e2a7"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/pressed/0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-619" y="-3"/>
+<string name="_hash" value="fe665a85eb644c53e80ef3a586dfd410ccebcc9d8d7b27491a0daa3a2d2f1157"/>
+<string name="_outlink" value="UI/GuildUI2.img/noGuild/main/button:Close/disabled/0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="17" height="17">
+<vector name="origin" x="-617" y="-1"/>
+<string name="_hash" value="ba6fb2587ab6612e1b1b623a92ab4312760a68bacc3ab3fdcf17cbb4603f05fc"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtMin">
+<imgdir name="normal">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-582" y="-4"/>
+<string name="_hash" value="a466271b4ca3a074864fe74f381e254e5954cf6deff452ca10b00f8961b5a247"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-582" y="-4"/>
+<string name="_hash" value="e1fb5c448b6ae337921e2cf8a23a1e9eb6a3da916343eac4cc5e97ff129d4aa0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-582" y="-4"/>
+<string name="_hash" value="a3bc98194f28b30ebeaf1eca180d2a50f5a66c8c2725d4c6ce78daf6e232054f"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-582" y="-4"/>
+<string name="_hash" value="cdc4f846d24921bc39ab74db0ccb6665fc31dfff004c9a31723d2f5c790dc45c"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtMax">
+<imgdir name="normal">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-606" y="-4"/>
+<string name="_hash" value="63d22dc73fc0abee79edc65c04c7bbf992e11fc40b4f5ae626b7e5210655a2a1"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-606" y="-4"/>
+<string name="_hash" value="3814c08dcc953a38a160857816a6f6d04980a447565226e5f6493a07701edcec"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-606" y="-4"/>
+<string name="_hash" value="4d9f818cc50e309e1065f6487bb9a80bb34b2461898b9fdaee34e5ce06e5e538"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-606" y="-4"/>
+<string name="_hash" value="e6278eed3038c65d7e7b51c7dcb8ee500e793e11675b3da26b6a7ad2eb86ae7c"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtBig">
+<imgdir name="normal">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-594" y="-4"/>
+<string name="_hash" value="3b0544b53227bd74f0f70af95b9be52b4427c5f9cff8b930c0346b6189801db9"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-594" y="-4"/>
+<string name="_hash" value="fc88ad3eadd4aeb5c97a524289ac9813e0add41fe8133a981711802e54269567"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-594" y="-4"/>
+<string name="_hash" value="9eb52ccaca22c08d60bd5881dc8aa6d476580ec42fb24fcc0f47465ee65979c1"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-594" y="-4"/>
+<string name="_hash" value="d9869320dd79298c1a8868af6fc83efa90705eabbda29d1c6bc4c40794624e5c"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtEnter">
+<imgdir name="normal">
+<canvas name="0" width="75" height="27">
+<vector name="origin" x="-438" y="-499"/>
+<string name="_hash" value="6fdaaa1e00ff54a4b106290a5de4e2aab138222be11e777bde0e23d43e0c7187"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="75" height="27">
+<vector name="origin" x="-438" y="-499"/>
+<string name="_hash" value="0974f1eb8108dc9462d9de24de6deb825f0235bca38aa7795380ceb44f2059d6"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="75" height="27">
+<vector name="origin" x="-438" y="-499"/>
+<string name="_hash" value="306f5590b30105af0343e0f1c6566ca968190e6e0d5d87e35daf0dcbee8f9930"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="75" height="27">
+<vector name="origin" x="-438" y="-499"/>
+<string name="_hash" value="fc6d7d4e3a78990e97896cfd5fd097082e203370bceb087687b931e5bb0efb0a"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtInvite">
+<imgdir name="normal">
+<canvas name="0" width="100" height="151">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="f1032e560eef65cd60c1340a03ce221f3333ddf86cdca2ea324eb6182ff4030e"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="100" height="151">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="759b0cab402a3713ba83d1b28a9d1af3275607485f8bbd15090703f6458cb359"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="100" height="151">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="ebde2ba81fecc5974854aff706ef1029641d1499f0e7c2bc6b204795378971f6"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="100" height="151">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="657972d269d29c15957c3455dfa60b7efeb37df093c9734de69240d3abb58141"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtHelp">
+<imgdir name="normal">
+<canvas name="0" width="24" height="23">
+<vector name="origin" x="-593" y="-37"/>
+<string name="_hash" value="e51cc9f49a21ee39b7a7160af96e1fbf39250129c20b53e9b8cfb18a45833184"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="24" height="23">
+<vector name="origin" x="-593" y="-37"/>
+<string name="_hash" value="24bf7f1c207b4910fd9f81acbe4fccaebae7a313bd9afec76f09bba524ee9c4a"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="24" height="23">
+<vector name="origin" x="-593" y="-37"/>
+<string name="_hash" value="9ef086df897b0db7e9224d6d5af5cc94aba4891fe0c4dc6469a125273c021a48"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="24" height="23">
+<vector name="origin" x="-593" y="-37"/>
+<string name="_hash" value="42b8b9ef292b4cca25aa394078793bb8afc42f0aa54b5290b9d9fc187a50f316"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="ImoticonFrame">
+<canvas name="backgrnd0" width="291" height="243">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="7696bf31883dc01fa706c37a1308945160ec5a436dc4638912ff1f80e5557dc8"/>
+</canvas>
+<canvas name="backgrnd1" width="260" height="175">
+<vector name="origin" x="-14" y="-36"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="15bbc249a869f4c33b8a00288e9a063d27b377cc697734e6e5ef4b7cd7b5ff88"/>
+</canvas>
+<imgdir name="ImoTab">
+<imgdir name="En">
+<canvas name="0" width="30" height="20">
+<vector name="origin" x="-249" y="-134"/>
+<string name="_hash" value="d341d1a2d7ce54ab9ce30e5dbacc5d22b1077268e4801864130b7c80b607402f"/>
+</canvas>
+<canvas name="1" width="30" height="20">
+<vector name="origin" x="-249" y="-134"/>
+<string name="_hash" value="a888a54111791f7a8cd8d9e2ca8fd59bb7a16a36c11e95dcc8524cddca636c02"/>
+</canvas>
+</imgdir>
+<imgdir name="Ds">
+<canvas name="0" width="30" height="20">
+<vector name="origin" x="-217" y="-134"/>
+<string name="_hash" value="42d753f0a778e77126aba82d90d518c1402c6b32946ae879d4e3bfab828afe50"/>
+</canvas>
+<canvas name="1" width="30" height="20">
+<vector name="origin" x="-249" y="-134"/>
+<string name="_hash" value="6f28b6c53ba4d24d0a17739b600cd98e5cfb1486787a52add215e1a092e58ece"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="UserInfo">
+<canvas name="backgrnd" width="271" height="145">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="ea7a5a93e524e0a00551cb711426716ba4e3b63b6442ea89450f34078272a7d2"/>
+</canvas>
+<canvas name="backgrnd2" width="259" height="116">
+<vector name="origin" x="-6" y="-22"/>
+<int name="z" value="-4"/>
+<string name="_hash" value="edc239b5c3b48cc9a9bce1714736d1e5154081977eae601c724f963d37cb0c9d"/>
+</canvas>
+<canvas name="name" width="89" height="19">
+<vector name="origin" x="-14" y="-111"/>
+<int name="z" value="0"/>
+<string name="_hash" value="07ca6920b93284af126547639f6a1b0553c043696d807a9877b52a38e6e7d3a4"/>
+</canvas>
+<imgdir name="BtCancel">
+<imgdir name="normal">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-250" y="-6"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/normal/0"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-250" y="-6"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/pressed/0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-251" y="-7"/>
+<string name="_hash" value="ef82e2904ffd96eeb88250c61809a3a8249d484a57ac2684253c5d423a6bb6c5"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/disabled/0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-250" y="-6"/>
+<string name="_hash" value="1f662949cd65fac9df8c2bb389f086e114a1bc35948f6aa6e93472298af65830"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/mouseOver/0"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="Min">
+<canvas name="backgrnd" width="296" height="288">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="2d214fcd832ec637415b31f12962cc1c77b3e7084bd6f417cf83e3be51af5462"/>
+</canvas>
+<canvas name="backgrnd2" width="278" height="256">
+<vector name="origin" x="-9" y="-22"/>
+<int name="z" value="-4"/>
+<string name="_hash" value="414a03a4b9780199ca3ebc188eb5325523f7c9849d0efd146475ac17e3855ff8"/>
+</canvas>
+<canvas name="backgrnd3" width="217" height="16">
+<vector name="origin" x="-17" y="-234"/>
+<int name="z" value="-3"/>
+<string name="_hash" value="ce5908a6e6719f27ad54209575f043aca08589e631db0ce3d7ce25d1c1f86c1b"/>
+</canvas>
+<imgdir name="nameTag">
+<canvas name="0" width="88" height="19">
+<vector name="origin" x="-13" y="-27"/>
+<int name="z" value="0"/>
+<string name="_hash" value="054ea298ae8a66357f10c68b8eb66431d7afeb3685fbc4f983b0704f540094a4"/>
+</canvas>
+<canvas name="1" width="88" height="19">
+<vector name="origin" x="-104" y="-27"/>
+<int name="z" value="0"/>
+<string name="_hash" value="bd55b5b445cad25dbea2c7bed8986dcb8bda8e5319223e47bc3a3e236cee95ae"/>
+</canvas>
+<canvas name="2" width="88" height="19">
+<vector name="origin" x="-195" y="-27"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ad774c6264da7d26afa960ffd46e8ca33e61b8ca1759659d454ff206ddc78ea0"/>
+</canvas>
+<canvas name="3" width="88" height="19">
+<vector name="origin" x="-13" y="-49"/>
+<int name="z" value="0"/>
+<string name="_hash" value="5108c234a069a4dfc6691f8f7f241b6f03b9ac699be13b610fc267cbd716d4f4"/>
+</canvas>
+<canvas name="4" width="88" height="19">
+<vector name="origin" x="-104" y="-49"/>
+<int name="z" value="0"/>
+<string name="_hash" value="775ee006ce97f16b5cc0526899f6121745255cb3c6b2889f25f7231221fc2d1b"/>
+</canvas>
+<canvas name="5" width="88" height="19">
+<vector name="origin" x="-195" y="-49"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ee3b3811e5c1db9261695b03e2cb35cc05d43f76f4ab5406fbbab9c1a5e2fe4a"/>
+</canvas>
+</imgdir>
+<imgdir name="BtEnter">
+<imgdir name="normal">
+<canvas name="0" width="40" height="16">
+<vector name="origin" x="-239" y="-234"/>
+<string name="_hash" value="6032d2acb6c3e2134a36ffe673ff3ff316268ac16273545a06ee9f1649782d30"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="40" height="16">
+<vector name="origin" x="-239" y="-234"/>
+<string name="_hash" value="4c0c07f761f91d52500264e68d8438039c32c93ffbdbca551de9dab2ce29bfa3"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="40" height="16">
+<vector name="origin" x="-239" y="-234"/>
+<string name="_hash" value="831e8d4e12d0337f4879def02e76b2e2468bab12d2be2aeaffcb8277da909945"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="40" height="16">
+<vector name="origin" x="-239" y="-234"/>
+<string name="_hash" value="c8a00f639d995baadc8583fe60d3b196ac15a27353fe757c03c173efb4b0ea6c"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtClame">
+<imgdir name="normal">
+<canvas name="0" width="17" height="17">
+<vector name="origin" x="-263" y="-256"/>
+<string name="_hash" value="6f181e318561a32f0b9b07275947f1a745e1e04bdfe0b89bb6c98cb770a52c8f"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="17" height="17">
+<vector name="origin" x="-263" y="-256"/>
+<string name="_hash" value="0c6fd6d7e975858024cc1c5e47601a818a9c64d3c96a96e9e08f2413b7d876e7"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="17" height="17">
+<vector name="origin" x="-263" y="-256"/>
+<string name="_hash" value="475a9733bd45c8159d619721be7d5c33ca5922aa9eb2256ff94e867da1b2c42e"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="17" height="17">
+<vector name="origin" x="-263" y="-256"/>
+<string name="_hash" value="dfa8f51daf14d98551500145e2fa08a77bb22a3ac09032383c356528c30e2d57"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtMax">
+<imgdir name="normal">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-263" y="-5"/>
+<string name="_hash" value="c15f9a253015aa27472e4e9ca11d8ed0f56d3be5a7e1be56b62f9e662c7e988b"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-263" y="-5"/>
+<string name="_hash" value="a56d8a08f3aa3966f2f7e15f247d906428ac7e77d2c10d7f94234f509504aa89"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-263" y="-5"/>
+<string name="_hash" value="ad0297206766ef0dd4486f5ff75f0dfa749769341fce622c03adacebf2246d84"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-263" y="-5"/>
+<string name="_hash" value="39deeb5e8d524f9db49e28aed3d369732d2bf99a4163044d9e3865bd03151abc"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtBig">
+<imgdir name="normal">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-251" y="-5"/>
+<string name="_hash" value="fc4120194658e073f6818732dbee58aad56b687c9e53320b9a69270aa485b250"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-251" y="-5"/>
+<string name="_hash" value="b616d9a0ab510f4e2c240ba81750b306aafd971cc61c223c764f02bd87068d2a"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-251" y="-5"/>
+<string name="_hash" value="effcf0fe9a82f9289821d89b091a0d8633c2689c7414f1fc42f3b71b51492410"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-251" y="-5"/>
+<string name="_hash" value="a4a2cc9b1188d7305cadfd9ebc62edc0a9c2299bc7789712ea3d8e32bf93beb3"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtMin">
+<imgdir name="normal">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-239" y="-5"/>
+<string name="_hash" value="c1155477286d74c252d824d472f77be5845296230d3348d02df944ad7d44149b"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-239" y="-5"/>
+<string name="_hash" value="d3a2db56cce707c61f569b31d68c74f23127ad49a4e67fe4ef3789153152d83b"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-239" y="-5"/>
+<string name="_hash" value="0cfe261b9883599203fd44a16679a6b84f45cf10d3a729e49090592122c6d68c"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-239" y="-5"/>
+<string name="_hash" value="6bce30ea9e7f5ae8e30bbbdd482abe4450c275b0c90251e30a8f8ceb411067a6"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="btX">
+<imgdir name="normal">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-274" y="-2"/>
+<string name="_hash" value="77db21730b1d0654f74bbb92085a14a20d9db5f7a2d65483066e62b8f0e46c12"/>
+<string name="_outlink" value="UI/AutoPvP.img/matching/button:close/normal/0"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-276" y="-4"/>
+<string name="_hash" value="7a6f7e4ba44163652d391e2cc28126a6465717d433417a71957a98309d2bccad"/>
+<string name="_outlink" value="UI/AutoPvP.img/matching/button:close/pressed/0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-276" y="-4"/>
+<string name="_hash" value="242b712639dc3dc32eb55caa15185ecf54765323837c287fed8c9fa8a16b0835"/>
+<string name="_outlink" value="UI/AutoPvP.img/matching/button:close/disabled/0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="17" height="17">
+<vector name="origin" x="-274" y="-2"/>
+<string name="_hash" value="21574d4619755c1e8e5d4c4acbe85ffa8754a881de5bd7cebeb60141b5b9ad98"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="userIcon">
+<canvas name="0" width="12" height="11">
+<vector name="origin" x="-22" y="-83"/>
+<int name="z" value="0"/>
+<string name="_hash" value="5078e88ba20bad0196c2d911af6674bd82d93ef285a9144bc12bdb6b916d27f0"/>
+</canvas>
+<canvas name="1" width="12" height="11">
+<vector name="origin" x="-22" y="-83"/>
+<int name="z" value="0"/>
+<string name="_hash" value="4c22b8cd155d133ccd448668abb76388b890bf535149538c1a6586a5fe56f5a9"/>
+</canvas>
+<canvas name="2" width="12" height="11">
+<vector name="origin" x="-22" y="-83"/>
+<int name="z" value="0"/>
+<string name="_hash" value="8dea9221479262458111b5f23e771c1580a86d3b85fdb97678cd9029d9adbf4d"/>
+</canvas>
+<canvas name="3" width="12" height="11">
+<vector name="origin" x="-22" y="-83"/>
+<int name="z" value="0"/>
+<string name="_hash" value="3163bc985aa523a2c9f3ffb4195cf29bea2267ee835eba80196b45667d49b7be"/>
+</canvas>
+<canvas name="4" width="12" height="11">
+<vector name="origin" x="-22" y="-83"/>
+<int name="z" value="0"/>
+<string name="_hash" value="b10e43faae71fbb7f65534e389b9874b5e91f0ae6307b547516289fcade9d352"/>
+</canvas>
+<canvas name="5" width="12" height="11">
+<vector name="origin" x="-22" y="-83"/>
+<int name="z" value="0"/>
+<string name="_hash" value="dfdeb5c008d5235756942b31cef60357b9bf8dd5942b4b26a241ef78366596b5"/>
+</canvas>
+<canvas name="6" width="12" height="11">
+<vector name="origin" x="-22" y="-83"/>
+<int name="z" value="0"/>
+<string name="_hash" value="8e7bddd04a0de649d409ee6dbb5fa5e2b4af7aa669e302f6fcf7b7e61278788c"/>
+</canvas>
+</imgdir>
+<imgdir name="scrollImage">
+<imgdir name="enabled">
+<canvas name="prev0" width="5" height="8">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="cc8c2fc64f9e3c57a37e7f45f133ab747ece0ef341c72a9546ddb9fe04c61b80"/>
+</canvas>
+<canvas name="prev1" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/prev0"/>
+</canvas>
+<canvas name="prev2" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/prev0"/>
+</canvas>
+<canvas name="base" width="5" height="8">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="3a35cf9a6eb772e2db0d07dfe37437c7fdd93c23a00240206ada55e9980f3e8f"/>
+</canvas>
+<canvas name="thumb0" width="5" height="32">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="f353076c9a567f12bfb30a01e5983b92bb0f14a20cfbaf62c307d6e532a6ecaf"/>
+</canvas>
+<canvas name="thumb1" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/thumb0"/>
+</canvas>
+<canvas name="thumb2" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/thumb0"/>
+</canvas>
+<canvas name="next0" width="5" height="8">
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="c1cab2d2be00bedf88442409e400e70cdf7ee6d61e5ea864e210a5d7a9ea12ce"/>
+</canvas>
+<canvas name="next1" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/next0"/>
+</canvas>
+<canvas name="next2" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/next0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="prev" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/prev0"/>
+</canvas>
+<canvas name="base" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/base"/>
+</canvas>
+<canvas name="next" width="1" height="1">
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/Min/scrollImage/enabled/next0"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="scrollInfo">
+<int name="length" value="147"/>
+<int name="wheelRange" value="217"/>
+<int name="id" value="10000"/>
+<string name="path" value="UI/UIMapleChat.img/socialChat/Min/scrollImage"/>
+<vector name="lt" x="275" y="78"/>
+</imgdir>
+<imgdir name="whisperBg">
+<canvas name="0" width="251" height="16">
+<vector name="origin" x="-18" y="-160"/>
+<int name="z" value="0"/>
+<string name="_hash" value="0a768cc714b599fa9d87925034d9ba0d4e1a472bfbd84db3e96f77f8e7efe40d"/>
+</canvas>
+<canvas name="1" width="251" height="16">
+<vector name="origin" x="-18" y="-160"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ad1511e8e17831c0a4c7c3673893edcada10244dba7e23d48ca426db92852ba6"/>
+</canvas>
+<canvas name="2" width="251" height="16">
+<vector name="origin" x="-18" y="-160"/>
+<int name="z" value="0"/>
+<string name="_hash" value="809fe0685af0f52414cd4d7d79388ce10352de4efbd40060174805397fe048bd"/>
+</canvas>
+<canvas name="3" width="251" height="16">
+<vector name="origin" x="-18" y="-160"/>
+<int name="z" value="0"/>
+<string name="_hash" value="7ee7cd980ed309a57af49b5799af03831861032f6ee56c3933eae8e2cdfff8c7"/>
+</canvas>
+<canvas name="4" width="251" height="16">
+<vector name="origin" x="-18" y="-160"/>
+<int name="z" value="0"/>
+<string name="_hash" value="1b1167266fb0a7ea25420b0f7bdc88fe08ecc1e02f3b70112e62b86b31cbbf50"/>
+</canvas>
+<canvas name="5" width="251" height="16">
+<vector name="origin" x="-18" y="-160"/>
+<int name="z" value="0"/>
+<string name="_hash" value="11746f335ea9372a3ff7a35dd50b322fb6eed86b043b1d466ae8c6cc38271b4e"/>
+</canvas>
+</imgdir>
+<imgdir name="noticeBg">
+<canvas name="left" width="8" height="16">
+<vector name="origin" x="-40" y="-128"/>
+<int name="z" value="0"/>
+<string name="_hash" value="1a3af5ed3c51c1005715aec5fa45e5dc25c4c49f26520fb2cc4b33886e9cb115"/>
+</canvas>
+<canvas name="center" width="1" height="16">
+<vector name="origin" x="-48" y="-128"/>
+<int name="z" value="0"/>
+</canvas>
+<canvas name="right" width="8" height="16">
+<vector name="origin" x="-240" y="-128"/>
+<int name="z" value="0"/>
+<string name="_hash" value="712d75d66bb67cafffacc569b11ebcff74d1fd3b4fb63c0ec064420a8d764c0a"/>
+</canvas>
+</imgdir>
+<imgdir name="BtEomticon">
+<imgdir name="normal">
+<canvas name="0" width="14" height="14">
+<vector name="origin" x="-19" y="-235"/>
+<string name="_hash" value="e5c4a662c4773e6359fc6861551680fee0190b8ec37f017b572a360e97597d2d"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="14" height="14">
+<vector name="origin" x="-19" y="-235"/>
+<string name="_hash" value="27cbecae7d061c2a12994be5eceacec18b1a078e3080935d46f2a81a8bd9ce01"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="14" height="14">
+<vector name="origin" x="-19" y="-235"/>
+<string name="_hash" value="eb0e292de31faab1ae17c81af9ed9fff1ae6392d404043f35cc04d8afa618d96"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="14" height="14">
+<vector name="origin" x="-19" y="-235"/>
+<string name="_hash" value="a90c22051dc81442d3815f55116a89e1f15b9eb55c1e8eae92c52ab7c42bdf49"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="Min2">
+<canvas name="backgrnd" width="162" height="21">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="55406398c7045f2612ec4dc6fdb5d32f6aa6ca29a98350f8a56431225766ce3b"/>
+</canvas>
+<canvas name="icon" width="13" height="11">
+<vector name="origin" x="-7" y="-5"/>
+<int name="z" value="0"/>
+<string name="_hash" value="254b6e90ad722b6ac0d8204d8b9d8a95819f0aff2238d0bea3e18c803a6c9823"/>
+</canvas>
+<imgdir name="BtMax">
+<imgdir name="normal">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-128" y="-5"/>
+<string name="_hash" value="0e10753fd8429f573fbd88d8f56edfd5d0f1a455a25c40f4609535b27b1703be"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="11" height="11">
+<vector name="origin" x="-128" y="-5"/>
+<string name="_hash" value="81cfb5fc3cbc2d7c64b236c3cce083b9638a5b1088bc4b7230ac3549403d19e1"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-128" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtMax/disabled/0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-128" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtMax/mouseOver/0"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtMin">
+<imgdir name="normal">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-104" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtMin/normal/0"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-104" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtMin/pressed/0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-104" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtMin/disabled/0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-104" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtMin/mouseOver/0"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtBig">
+<imgdir name="normal">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-116" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtBig/normal/0"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-116" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtBig/pressed/0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-116" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtBig/disabled/0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-116" y="-5"/>
+<string name="_inlink" value="socialChat/Min/BtBig/mouseOver/0"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="chatAni">
+<canvas name="0" width="77" height="15">
+<vector name="origin" x="-5" y="-3"/>
+<int name="z" value="-3"/>
+<string name="_hash" value="796b19818a0690c069545462cc0ce88b5a5d882e2a9cd1c508e0ec22879cf646"/>
+</canvas>
+<canvas name="1" width="77" height="15">
+<vector name="origin" x="-5" y="-3"/>
+<int name="z" value="-3"/>
+<string name="_hash" value="005504a09de7607f78fa4d594fa2b169f01da64b314396732afc491dda855905"/>
+</canvas>
+<canvas name="2" width="77" height="15">
+<vector name="origin" x="-5" y="-3"/>
+<int name="z" value="-3"/>
+<string name="_hash" value="fb7d0dd9fe625129c996621e02be7c8fedfd86cd2c69467b065420dbb7a42375"/>
+</canvas>
+<canvas name="3" width="77" height="15">
+<vector name="origin" x="-5" y="-3"/>
+<int name="z" value="-3"/>
+<string name="_hash" value="bbf4c93870a53e676a167344ed1dadcd85c8b10e2a0fb178c704c9dc1b2829d7"/>
+</canvas>
+<canvas name="4" width="77" height="15">
+<vector name="origin" x="-5" y="-3"/>
+<int name="z" value="-3"/>
+<string name="_hash" value="2ecdb24d91864fa30ede57a9a895f014e8f19e1feace304426a6f45ae666a11a"/>
+</canvas>
+</imgdir>
+<imgdir name="btX">
+<imgdir name="normal">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-140" y="-2"/>
+<string name="_outlink" value="UI/AutoPvP.img/matching/button:close/normal/0"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-142" y="-4"/>
+<string name="_outlink" value="UI/AutoPvP.img/matching/button:close/pressed/0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-142" y="-4"/>
+<string name="_outlink" value="UI/AutoPvP.img/matching/button:close/disabled/0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-140" y="-2"/>
+<string name="_inlink" value="socialChat/Min/btX/mouseOver/0"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+<imgdir name="FriendList">
+<canvas name="backgrnd" width="162" height="250">
+<int name="z" value="-5"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="a85bb7d35376866b325ac56caaef783c0f0f22d95b1772abaddb81361a75152f"/>
+</canvas>
+<canvas name="backgrnd2" width="150" height="222">
+<int name="z" value="-4"/>
+<vector name="origin" x="-6" y="-22"/>
+<string name="_hash" value="87b12dda3809fc8666f1124d278f973fe0e1ff22ed8663814d81b1ab45c3c03b"/>
+</canvas>
+<imgdir name="BtOK">
+<imgdir name="normal">
+<canvas name="0" width="77" height="16">
+<vector name="origin" x="-42" y="-224"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="1131e2b2b2af8a37163a847b02d1112efe752dca975b04f56037d6d80873dd94"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="77" height="16">
+<vector name="origin" x="-42" y="-224"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="4ebddca4b2ed73bde5a0630a08b2de8178a1ad4bda7b63a45c2d1d2e4100b621"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="77" height="16">
+<vector name="origin" x="-42" y="-224"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="3cbe81f973a6e7d215094a166b7da90d68149795bffef80a3fd785aadb067f41"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="77" height="16">
+<vector name="origin" x="-42" y="-224"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="89773534b2f5a34796f6010941ed5402ac6ba9452995d942e57206231216d8b2"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtClose">
+<imgdir name="normal">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-143" y="-6"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/normal/0"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-143" y="-7"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/pressed/0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-144" y="-7"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/disabled/0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="-143" y="-6"/>
+<string name="_outlink" value="UI/Basic.img/BtClose3/mouseOver/0"/>
+</canvas>
+</imgdir>
+</imgdir>
+<canvas name="selected" width="121" height="13">
+<int name="z" value="-5"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="c59f6bc7792c46fe5f68fd409ac51e3021ef2fb9ea84672cd5e0bb159cf396b4"/>
+</canvas>
+<canvas name="mouseover" width="121" height="13">
+<int name="z" value="-5"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="be45fa3ef3dac6df0b0a89441320e72bb2db359ff3e9b3240adee153084055ee"/>
+</canvas>
+</imgdir>
+<imgdir name="UserList">
+<canvas name="backgrnd" width="286" height="331">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="-5"/>
+<string name="_hash" value="42241c7c688123f7f846d4fcf11a9e7ad85755e496d8232b7a1fb2c834a7ad1b"/>
+</canvas>
+<imgdir name="button:close">
+<imgdir name="normal">
+<canvas name="0" width="83" height="26">
+<vector name="origin" x="-145" y="-270"/>
+<string name="_hash" value="6d97cc825f2cf17b1e2a26af69145ec1978a7a5f144efe5e36f784d9334b3028"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="83" height="26">
+<vector name="origin" x="-145" y="-270"/>
+<string name="_hash" value="9f2bd1b0a39066ddf66dde95fcc917cfd441def66a63d92a4966c355d6828af0"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="83" height="26">
+<vector name="origin" x="-145" y="-270"/>
+<string name="_hash" value="93c0e62bfe947048184ef805077ceaf50a395067b2b20e3d8347cd5064b0a886"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="83" height="26">
+<vector name="origin" x="-145" y="-270"/>
+<string name="_hash" value="0c8fb9b72e67f9ff447e03a7feabf48ee158477f2b2b88d38cb096639afa95ce"/>
+</canvas>
+</imgdir>
+<int name="id" value="1000"/>
+</imgdir>
+<imgdir name="button:inviteSelected">
+<imgdir name="normal">
+<canvas name="0" width="83" height="26">
+<vector name="origin" x="-58" y="-270"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="cdf11106b616307c9b2fdbed1833dd3952f4260dd99aea41e0d414d7e1d0a9b9"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="83" height="26">
+<vector name="origin" x="-58" y="-270"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="73ce25ed266c4ab817719784cd8dcb803399682a668250cc00458cd04768fbca"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="83" height="26">
+<vector name="origin" x="-58" y="-270"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="d3adf8f2fb1d94389fc5c1ca295d38f0d6e7fa09cb1ebd06be9297549c3e12ce"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="83" height="26">
+<vector name="origin" x="-58" y="-270"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="476d267cf8a46841d88bb3e6e20d320bde3e8135d8e64a0a7b681b0309167f3c"/>
+</canvas>
+</imgdir>
+<int name="id" value="1001"/>
+</imgdir>
+<imgdir name="button:inviteCharacterName">
+<imgdir name="normal">
+<canvas name="0" width="56" height="20">
+<vector name="origin" x="-210" y="-40"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="68eb0dc0155569d4093c6ecd4294594977daf2e0bcea0219115fec83186a73a5"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="56" height="20">
+<vector name="origin" x="-210" y="-40"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="fb3895ec577a8ecd4e79795b4f90a7894530008fa630cdcd055c1038655c3834"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="56" height="20">
+<vector name="origin" x="-210" y="-40"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="be85695bce0ee7af4c07cb654775847880232629418b960dd7d4410f695dd0a0"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="56" height="20">
+<vector name="origin" x="-210" y="-40"/>
+<int name="z" value="-1"/>
+<string name="_hash" value="448a2622ce21058ed845fead3a90a39418465e44ed641fe8922739c62bfdd981"/>
+</canvas>
+</imgdir>
+<int name="id" value="1002"/>
+</imgdir>
+<imgdir name="scroll:fieldUser">
+<int name="length" value="151"/>
+<int name="wheelRange" value="217"/>
+<int name="id" value="10000"/>
+<string name="path" value="UI/Basic.img/VScr105"/>
+<vector name="lt" x="256" y="96"/>
+</imgdir>
+<imgdir name="scroll:friend">
+<int name="length" value="151"/>
+<int name="wheelRange" value="217"/>
+<int name="id" value="10001"/>
+<string name="path" value="UI/Basic.img/VScr105"/>
+<vector name="lt" x="131" y="96"/>
+</imgdir>
+<imgdir name="table_fieldUser">
+<vector name="lt" x="151" y="97"/>
+<vector name="rb" x="254" y="244"/>
+<int name="itemHeight" value="20"/>
+<canvas name="selected" width="103" height="14">
+<int name="z" value="-5"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="7ddf4243af2e0c7b77d87f95066736bdbd52a63039f362a48898d048bd2b73cc"/>
+</canvas>
+<canvas name="mouseover" width="103" height="14">
+<int name="z" value="-5"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="b1bfe734405e2117fbb51d3f6bf95ecbdafae1503a7cb5e28af3536d5a6a2c59"/>
+</canvas>
+</imgdir>
+<imgdir name="table_friend">
+<vector name="lt" x="26" y="97"/>
+<vector name="rb" x="129" y="244"/>
+<int name="itemHeight" value="20"/>
+<canvas name="selected" width="1" height="1">
+<int name="z" value="-5"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/UserList/table_fieldUser/selected"/>
+</canvas>
+<canvas name="mouseover" width="1" height="1">
+<int name="z" value="-5"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_inlink" value="socialChat/UserList/table_fieldUser/mouseover"/>
+</canvas>
+</imgdir>
+<imgdir name="edit:name">
+<vector name="lt" x="25" y="44"/>
+<vector name="rb" x="196" y="56"/>
+<int name="id" value="50000"/>
+<int name="maxlen" value="12"/>
+<string name="color" value="ff999999"/>
+<int name="height" value="12"/>
+<string name="font" value="MD모리스9"/>
+<int name="bold" value="1"/>
+</imgdir>
+</imgdir>
+<imgdir name="nameTag">
+<canvas name="0" width="82" height="18">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="f857fdf774fad9ab65ccf03e2f6c62507cefd1866665e06d18d9b51eeabdbf43"/>
+</canvas>
+<canvas name="1" width="82" height="18">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="9769e54b49fa0f6690f41017eacbab9213b34d3a6c4268f41cedffb878af3ecf"/>
+</canvas>
+<canvas name="2" width="82" height="18">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ff72ad947537335d9fd2d289945dfa1affffef172e14a7410edf559e8b7af518"/>
+</canvas>
+<canvas name="3" width="82" height="18">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="c0fc09c636961d4242411befcfc682bd51114ea78bc484497e647b9c4fa46d8f"/>
+</canvas>
+<canvas name="4" width="82" height="18">
+<int name="z" value="0"/>
+<vector name="origin" x="0" y="0"/>
+<string name="_hash" value="d7e5e6df70f8777bb4cb15afdf42874dcf9167abd760dc8580502b45fe25f9da"/>
+</canvas>
+<canvas name="5" width="82" height="18">
+<vector name="origin" x="0" y="0"/>
+<int name="z" value="0"/>
+<string name="_hash" value="b7120b3d222f1d9f9e01b3d6b7d43b2c18df2fb76d55da09e46746b7d942a910"/>
+</canvas>
+</imgdir>
+<imgdir name="BtClame">
+<imgdir name="normal">
+<canvas name="0" width="24" height="22">
+<vector name="origin" x="-554" y="-470"/>
+<string name="_hash" value="93f9857995d3128fcc004322fe4c37378186d0627accd306c6f754ab6e730d10"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="24" height="22">
+<vector name="origin" x="-554" y="-470"/>
+<string name="_hash" value="3bcf8bf80a6c1b1d6cdb1b6b950279125629ede1a6de35c3cde939143a13ffa4"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="24" height="22">
+<vector name="origin" x="-554" y="-470"/>
+<string name="_hash" value="7dfb62c01d931e9099705e2d8ff1624547b582835af59336686ce89db8f2009e"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="24" height="22">
+<vector name="origin" x="-554" y="-470"/>
+<string name="_hash" value="88c5deafcff09a2efa03350ae65a0564ab741ccbf09a0e752f5c949ebf9e9c63"/>
+</canvas>
+</imgdir>
+</imgdir>
+<imgdir name="BtEomticon">
+<imgdir name="normal">
+<canvas name="0" width="19" height="19">
+<vector name="origin" x="-129" y="-504"/>
+<string name="_hash" value="52ac871dbb69078c0eb18f908c5c55a9a3122c2e85f33954b7c9b51d675939e6"/>
+</canvas>
+</imgdir>
+<imgdir name="pressed">
+<canvas name="0" width="19" height="19">
+<vector name="origin" x="-129" y="-504"/>
+<string name="_hash" value="f08bd9fab1da46906fbeff1f0f2f46fb122233591124b2c5f717f1788bf02aa6"/>
+</canvas>
+</imgdir>
+<imgdir name="disabled">
+<canvas name="0" width="19" height="19">
+<vector name="origin" x="-129" y="-504"/>
+<string name="_hash" value="d3f6d2dbfbfb9e401a4d7ac8a539e071c2fc3d753c68e7999d9ff1d107e77ef2"/>
+</canvas>
+</imgdir>
+<imgdir name="mouseOver">
+<canvas name="0" width="19" height="19">
+<vector name="origin" x="-129" y="-504"/>
+<string name="_hash" value="3e6e5e9fca2d57aedc6a01163d17e0082cccf4cb1c61c46d7ac82d9ef41b374a"/>
+</canvas>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

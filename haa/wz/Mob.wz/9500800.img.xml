@@ -1,0 +1,1347 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="9500800.img">
+<imgdir name="info">
+<int name="level" value="101"/>
+<long name="maxHP" value="6000000000"/>
+<int name="bodyAttack" value="1"/>
+<int name="PDRate" value="50"/>
+<int name="MDRate" value="50"/>
+<int name="maxMP" value="100000"/>
+<int name="PADamage" value="5000"/>
+<int name="PDDamage" value="0"/>
+<int name="MADamage" value="10"/>
+<int name="MDDamage" value="10"/>
+<int name="acc" value="10"/>
+<int name="eva" value="10"/>
+<int name="exp" value="0"/>
+<int name="pushed" value="1000000000"/>
+<float name="fs" value="10.0"/>
+<int name="summonType" value="112"/>
+<int name="boss" value="1"/>
+<int name="ignoreFieldOut" value="1"/>
+<string name="mobType" value="1N"/>
+<int name="firstAttack" value="1"/>
+<int name="hpTagColor" value="17"/>
+<int name="hpTagBgcolor" value="5"/>
+<imgdir name="firstAttackRange">
+<vector name="lt" x="-9999" y="-9999"/>
+<vector name="rb" x="9999" y="9999"/>
+</imgdir>
+<imgdir name="attack">
+<imgdir name="0">
+<int name="action" value="1"/>
+<int name="attackRatio" value="100"/>
+<int name="type" value="0"/>
+<int name="conMP" value="0"/>
+<int name="magic" value="1"/>
+<int name="fixDamR" value="10"/>
+</imgdir>
+<imgdir name="1">
+<int name="action" value="2"/>
+<int name="attackRatio" value="100"/>
+<int name="type" value="3"/>
+<int name="conMP" value="0"/>
+<int name="magic" value="1"/>
+<int name="fixDamR" value="20"/>
+<int name="cooltime" value="15000"/>
+</imgdir>
+<imgdir name="2">
+<int name="action" value="3"/>
+<int name="attackRatio" value="100"/>
+<int name="type" value="0"/>
+<int name="conMP" value="0"/>
+<int name="cooltime" value="10000"/>
+<int name="fixDamR" value="30"/>
+</imgdir>
+</imgdir>
+<int name="miniGameMobPointOffsetX" value="0"/>
+<int name="miniGameMobPointOffsetY" value="0"/>
+<int name="miniGameMobPointMoveTime" value="3500"/>
+<int name="miniGameMobPointMoveY" value="-150"/>
+<int name="speed" value="-40"/>
+<int name="ignoreMoveImpact" value="1"/>
+<int name="hideHP" value="1"/>
+<int name="showNotRemoteDam" value="1"/>
+<string name="elemAttr" value="P2H2F2I2S2L2D2"/>
+<int name="notSeperateSoul" value="1"/>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="154" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="d48e7cd954405fbf26c8b2a29807d80752598fb72a0c7f67c0deefbcc648df6f"/>
+<string name="_outlink" value="Mob/9500650.img/stand/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="154" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ce26f3bd7ab9a86400a95fa31ef68765efec1acfaf7ce9b00dbf38623f17bac6"/>
+<string name="_outlink" value="Mob/9500650.img/stand/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="154" y="239"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="2cd750ca016a8c1949e325b84cacf218ae1132c0286fea13122436057e35f306"/>
+<string name="_outlink" value="Mob/9500650.img/stand/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="153" y="241"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="abfc0e80c67d03d7033e98a3dc263274acaa54290c8890dde56e34494abdb710"/>
+<string name="_outlink" value="Mob/9500650.img/stand/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="153" y="242"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="da73887eea954e7573a9211f1663a6c286f1ffbe84653d9adcf17cb41f9aecd4"/>
+<string name="_outlink" value="Mob/9500650.img/stand/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="152" y="243"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="0948a3627ef5d80b5cbbd82c1e571d4c6ae585f8325e9c700da26c74a21b6bc9"/>
+<string name="_outlink" value="Mob/9500650.img/stand/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="152" y="244"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="15688033047570db8615949aea7d228e046f30a378db640bdb4d9755d89223b1"/>
+<string name="_outlink" value="Mob/9500650.img/stand/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="152" y="244"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="a87b14978c53fd0e97b3182317fe16d212d16fcabe5e0f9010e098ee6f3a638b"/>
+<string name="_outlink" value="Mob/9500650.img/stand/7"/>
+</canvas>
+<canvas name="8" width="1" height="1">
+<vector name="origin" x="152" y="243"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="3296f024b7ee5a6bc6aa274e173ab3a505d327502d929c1349aa44179e845df4"/>
+<string name="_outlink" value="Mob/9500650.img/stand/8"/>
+</canvas>
+<canvas name="9" width="1" height="1">
+<vector name="origin" x="152" y="242"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="d35c34bf91341082314f35f5b2f2c0fa9073e964098caa054dbed5ff1f1c32e2"/>
+<string name="_outlink" value="Mob/9500650.img/stand/9"/>
+</canvas>
+<canvas name="10" width="1" height="1">
+<vector name="origin" x="152" y="241"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="23565b72d362afded6a0be75380e1eeb2141998327272a0f7bf99adf790bd45c"/>
+<string name="_outlink" value="Mob/9500650.img/stand/10"/>
+</canvas>
+<canvas name="11" width="1" height="1">
+<vector name="origin" x="152" y="240"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="f43fc2f9352e7c0189c3c4dadbfb2445820b2521a0461a782ea9d9f77064ca3b"/>
+<string name="_outlink" value="Mob/9500650.img/stand/11"/>
+</canvas>
+<canvas name="12" width="1" height="1">
+<vector name="origin" x="153" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="dc063dee7203a1698b5d86a450560e0cd5f0bd248c4b80e6892b500257eeba18"/>
+<string name="_outlink" value="Mob/9500650.img/stand/12"/>
+</canvas>
+<canvas name="13" width="1" height="1">
+<vector name="origin" x="155" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="a1529372c39e317cc35983ab566ad5d7d18f7b84001101fd5655611d51435b85"/>
+<string name="_outlink" value="Mob/9500650.img/stand/13"/>
+</canvas>
+<canvas name="14" width="1" height="1">
+<vector name="origin" x="156" y="237"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="24292d75578fd3c0c31e904548099c06d70e6229db917c741addc939d9563d93"/>
+<string name="_outlink" value="Mob/9500650.img/stand/14"/>
+</canvas>
+<canvas name="15" width="1" height="1">
+<vector name="origin" x="157" y="237"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="b9b2a5c9c7117d906528e9ca1c32b26c08aa0831909b74f9e3ca193e484f51f9"/>
+<string name="_outlink" value="Mob/9500650.img/stand/15"/>
+</canvas>
+</imgdir>
+<imgdir name="move">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="154" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="549139f913425c03c5b8bae9e4a63f7861dc240bfa4c64cc71d125e1330b6744"/>
+<string name="_outlink" value="Mob/9500650.img/move/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="154" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="1562cad05b1b0001af1f84005f1f9e094d5a9504d73b5b731dda76f7065713d3"/>
+<string name="_outlink" value="Mob/9500650.img/move/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="154" y="239"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="704c19307019118fb12b54e86d163e1913bb7d27ba95a5c12df004d9793f9b8b"/>
+<string name="_outlink" value="Mob/9500650.img/move/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="153" y="241"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="09553dde1ebfeae5e474242bde1f3c94d0ae443452c627533ea45015e5a5cc46"/>
+<string name="_outlink" value="Mob/9500650.img/move/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="153" y="242"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="3b6eaa8762dc5289d1157cbb0285b97999026fad812c22a5bb828c9058b2ae5d"/>
+<string name="_outlink" value="Mob/9500650.img/move/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="152" y="243"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="3d274a569bb7f6e53ce6285fb75a1ed2e264f35e5468961c522177ea3472419a"/>
+<string name="_outlink" value="Mob/9500650.img/move/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="152" y="244"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="29e5fd971085d774d990eff1014805bdc58394dfaa28a1bffe56c7ae45508fcd"/>
+<string name="_outlink" value="Mob/9500650.img/move/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="152" y="244"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="23353041147d4d0fa3d5426b3d837d39055b2929a4ecf329d0aa672081a60929"/>
+<string name="_outlink" value="Mob/9500650.img/move/7"/>
+</canvas>
+<canvas name="8" width="1" height="1">
+<vector name="origin" x="152" y="243"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="3084333347024cd619b20244390ba4b9ed7d84304873dd3a811766084c7a241a"/>
+<string name="_outlink" value="Mob/9500650.img/move/8"/>
+</canvas>
+<canvas name="9" width="1" height="1">
+<vector name="origin" x="152" y="242"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="1d8e29b689a56ff61ef09c6532b94efd14ea9c97352a9d007187da211b218941"/>
+<string name="_outlink" value="Mob/9500650.img/move/9"/>
+</canvas>
+<canvas name="10" width="1" height="1">
+<vector name="origin" x="152" y="241"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ac64b0fe16c8321c3b7f659aed211d6280e213092c7620a5b7d49983e8091b8a"/>
+<string name="_outlink" value="Mob/9500650.img/move/10"/>
+</canvas>
+<canvas name="11" width="1" height="1">
+<vector name="origin" x="152" y="240"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="eb6345aefc395a7a8901b819792ea7e452f717d515bf0619626eaff4259e88cf"/>
+<string name="_outlink" value="Mob/9500650.img/move/11"/>
+</canvas>
+<canvas name="12" width="1" height="1">
+<vector name="origin" x="153" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="567d654f310c499f26bcf3aef8aaba240def735fa179b4bc9c7db4c01fd983ba"/>
+<string name="_outlink" value="Mob/9500650.img/move/12"/>
+</canvas>
+<canvas name="13" width="1" height="1">
+<vector name="origin" x="155" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="d7c13cfd1fdd958138e6d7879de64170ad7e1964921c9057de9d8bc761094173"/>
+<string name="_outlink" value="Mob/9500650.img/move/13"/>
+</canvas>
+<canvas name="14" width="1" height="1">
+<vector name="origin" x="156" y="237"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ea5c0f1d3e71c96a8aaec6840b774ce19502d8fc4b33cc3df3b639591f53434d"/>
+<string name="_outlink" value="Mob/9500650.img/move/14"/>
+</canvas>
+<canvas name="15" width="1" height="1">
+<vector name="origin" x="157" y="237"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="22a192c093f32d06a6f46050550966722134aeaad6c02108120b9532c3965424"/>
+<string name="_outlink" value="Mob/9500650.img/move/15"/>
+</canvas>
+</imgdir>
+<imgdir name="attack1">
+<imgdir name="info">
+<imgdir name="range">
+<vector name="lt" x="-380" y="-275"/>
+<vector name="rb" x="73" y="30"/>
+</imgdir>
+<imgdir name="hit">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="75" y="99"/>
+<int name="z" value="0"/>
+<string name="_hash" value="21b3717fcfb3dc72a4556e28a7a770908e3e99ce1005e45ddfd52d82f73f21e3"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="75" y="117"/>
+<int name="z" value="0"/>
+<string name="_hash" value="d4470378e5fa4f81d3a982d631575437c0e85a44878baf08132e61cd834bc076"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="81" y="115"/>
+<int name="z" value="0"/>
+<string name="_hash" value="225b69ed92f84c525baa9ea66d352cf6154a60e0fdf174d899a76dc74ceeab14"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="86" y="120"/>
+<int name="z" value="0"/>
+<string name="_hash" value="cc8920af345730d0a1638a7cec9c4da1464f52b01ff140cf52fccce87fd03741"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="71" y="120"/>
+<int name="z" value="0"/>
+<string name="_hash" value="0d2e7cf9b2470ce4ebc9bffd4e23d90ed929818861fa3a8b95439b3453097008"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="70" y="74"/>
+<int name="z" value="0"/>
+<string name="_hash" value="53abae0065af4735a94dfd97deea2acfb9c7a3002bf26f811df180e324419284"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/5"/>
+</canvas>
+</imgdir>
+<int name="attackAfter" value="840"/>
+</imgdir>
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="155" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="f89540b09b4917f945e457706e00a6d7c50b28c45ac44ff0750544ca3735679a"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="189" y="241"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="74d8977aa515f6c1fee226d577232ca48fcd1b1a511118b665aa7588b62c8dae"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="189" y="276"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="9a7b1f272b275e41555e1db0a9a35e54154884550a4715ddcc9ae4405a0f0afa"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="197" y="320"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="1b1f597b81ef09f3c7e5b207f8f798b514fa09f5bf3c02882db281afade67f6d"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="211" y="337"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="a12f9d83dab9d9022d1f1f69aabce9096d04a8548edb8160d214f36b218a99c3"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="211" y="347"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="87bf218f053b92e65604d583ac82ffae30897cf2b1725e7627851baebcc3a49b"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="216" y="349"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="0f10f2392219448d7a434371dca165aff3c2be80edf6caaddda6ff4ae6415e9f"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="241" y="345"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="b760fb00732533fc8008f5a057fa216250d74d2719ddd7723eaeeb70269c4455"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/7"/>
+</canvas>
+<canvas name="8" width="1" height="1">
+<vector name="origin" x="361" y="342"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="8da90ad7a40bfbe0035774547682ddcb11e207d0ba8465e1aa44aeb2a09685f2"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/8"/>
+</canvas>
+<canvas name="9" width="1" height="1">
+<vector name="origin" x="360" y="338"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="2e95d830f31daa2bd9dd100839693edebfdeb74db3adb7b2a492b3b22ba46e6b"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/9"/>
+</canvas>
+<canvas name="10" width="1" height="1">
+<vector name="origin" x="358" y="289"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="320ab9378831c7088029c7eeb459fd7fc8923377f5c2f0cb126423fe8881b684"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/10"/>
+</canvas>
+<canvas name="11" width="1" height="1">
+<vector name="origin" x="364" y="287"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="c314c141ce8347b574593a3e8719424810bb5597f2b184beb14d80aa2d12ed15"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/11"/>
+</canvas>
+<canvas name="12" width="1" height="1">
+<vector name="origin" x="346" y="290"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="72274ed44def21d81562a15bf55dc10cb0254f2f213e4dcc08a0a29c731db29e"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/12"/>
+</canvas>
+<canvas name="13" width="1" height="1">
+<vector name="origin" x="345" y="292"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="1f48a5fc5ee26670e57b422a8798ef1b364d92a47f4795fc78c3da31ebd5fda4"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/13"/>
+</canvas>
+<canvas name="14" width="1" height="1">
+<vector name="origin" x="337" y="295"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="8654eee840701ac04d2746542028114bca8f0907fb927313a79f06085cffb855"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/14"/>
+</canvas>
+<canvas name="15" width="1" height="1">
+<vector name="origin" x="318" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="b45e1d9f9a07afb9b96fe1ede9d7200264389078ffdbcf45d052940c79b42f76"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/15"/>
+</canvas>
+</imgdir>
+<imgdir name="attack2">
+<imgdir name="info">
+<imgdir name="range">
+<vector name="lt" x="-120" y="-680"/>
+<vector name="rb" x="120" y="0"/>
+<int name="start" value="-4"/>
+<int name="areaCount" value="9"/>
+<int name="attackCount" value="7"/>
+</imgdir>
+<imgdir name="areaWarning">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="122" y="287"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="e31f93bfea62e8ca07b53fb206a628f666e981cfef76327cfa8e9310520d4676"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="121" y="240"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="d3d7336357cf66e1db1c834009784c8497475524b5bacfc3ea6a775bba494480"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="121" y="260"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="a4b1e50e3ab7b8138f12618774587ec0593e79679e17d83a08f7a279d7fadb39"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="122" y="271"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="e266f7f07da9d1afae47f2e879e33400de089d5f3e9ebddbc9125619692f44b4"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="123" y="299"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="767f18e4d3713eb5bdbea27faddc06cacbc2395b303c44eaf9ed5cc32c6bd96c"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="121" y="292"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="eaa64f297a55f1c1a9768d819dba75559874c1fae70abdb70bce4535e0973381"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="121" y="235"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="73c764399506cbd050e28390cc24929d139650b2f6df0f98b532f5421afee7b8"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="127" y="227"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="ba5fc0f331aff078aa8182cd0059ecc45aff10272b72c3e1f381e50561f9580e"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/7"/>
+</canvas>
+<canvas name="8" width="1" height="1">
+<vector name="origin" x="130" y="248"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="bbca9be137a140f849628167438afdc0d32d8247f5c2cea0019f0aca6337d834"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/8"/>
+</canvas>
+<canvas name="9" width="1" height="1">
+<vector name="origin" x="136" y="221"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="2c1c6eb3bc205713e8d852b3b7e5bda2159d3770fed2e3730d6f63781126dbb3"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/9"/>
+</canvas>
+<canvas name="10" width="1" height="1">
+<vector name="origin" x="135" y="238"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="db1dc5e20c19916813d26d179ecc6cd0e321d38f0a11541d8e03ac8966a3080e"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/10"/>
+</canvas>
+<canvas name="11" width="1" height="1">
+<vector name="origin" x="133" y="250"/>
+<int name="z" value="0"/>
+<int name="delay" value="120"/>
+<string name="_hash" value="ad037778767db2dc31f1f643d3a6dcba427685d21ddc8998780eb979db39b263"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/11"/>
+</canvas>
+<canvas name="12" width="1" height="1">
+<vector name="origin" x="178" y="721"/>
+<int name="z" value="0"/>
+<string name="_hash" value="09f2845db81b43913489b0db16d6dbda25f0595f76e0d2c51296d4fcbd89438c"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/12"/>
+</canvas>
+<canvas name="13" width="1" height="1">
+<vector name="origin" x="171" y="723"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ba1fd1bc28f72b27776cab9522388acd9eb7f3176b50ae2e21ab126a8b53e856"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/13"/>
+</canvas>
+<canvas name="14" width="1" height="1">
+<vector name="origin" x="178" y="741"/>
+<int name="z" value="0"/>
+<string name="_hash" value="4fcf04e8632f26f7b1f58cff695da857ccf7ec5d73203c8c16b81a97fdf21d9d"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/14"/>
+</canvas>
+<canvas name="15" width="1" height="1">
+<vector name="origin" x="182" y="741"/>
+<int name="z" value="0"/>
+<string name="_hash" value="903ebd2c7ec675ebdf7c778b495183006fbc93f6d15110ca9c8843c0925868a5"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/15"/>
+</canvas>
+<canvas name="16" width="1" height="1">
+<vector name="origin" x="176" y="745"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e3b927d8dd2d00c4399813ce1236162f576e035d8c35d3d3bba82e98a9c115cd"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/16"/>
+</canvas>
+<canvas name="17" width="1" height="1">
+<vector name="origin" x="168" y="745"/>
+<int name="z" value="0"/>
+<string name="_hash" value="8c249909e9a2c53ac0bbd433983798e5ee9f03cfd62a1d5cb61bcad2164aa71c"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/17"/>
+</canvas>
+<canvas name="18" width="1" height="1">
+<vector name="origin" x="162" y="740"/>
+<int name="z" value="0"/>
+<string name="_hash" value="0f6d8a6feb8cd94a701fe491c517b8c842f288c1c43060025722d2dfeb582b76"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/18"/>
+</canvas>
+<canvas name="19" width="1" height="1">
+<vector name="origin" x="140" y="716"/>
+<int name="z" value="0"/>
+<string name="_hash" value="0b60ef09a12d43bfbe93510e2fc452752183d081328c078564ff23ee81d1e88e"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/19"/>
+</canvas>
+<canvas name="20" width="1" height="1">
+<vector name="origin" x="142" y="724"/>
+<int name="z" value="0"/>
+<string name="_hash" value="a95f732fa8eaa9609734b90ab7fea5557fcf6c11babb4afc4ef783a2d133cdb7"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/20"/>
+</canvas>
+<canvas name="21" width="1" height="1">
+<vector name="origin" x="148" y="713"/>
+<int name="z" value="0"/>
+<string name="_hash" value="3b2de9e1d8d1282930e17600c1ae42715e0e6cca2339d998346d42ca1a166674"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/21"/>
+</canvas>
+<canvas name="22" width="1" height="1">
+<vector name="origin" x="169" y="740"/>
+<int name="z" value="0"/>
+<string name="_hash" value="535b54ca828de918c2b3d55d83d6d0bedcd6756982d60a93c3440654e7402610"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/22"/>
+</canvas>
+<canvas name="23" width="1" height="1">
+<vector name="origin" x="174" y="755"/>
+<int name="z" value="0"/>
+<string name="_hash" value="4096d4dc61809e83b023920acb3e1a12e598ca14b09023446b853fa4e1999be8"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/23"/>
+</canvas>
+<canvas name="24" width="1" height="1">
+<vector name="origin" x="174" y="755"/>
+<int name="z" value="0"/>
+<string name="_hash" value="281243ee0fb62cfa1718ed09bf147fb0018e9e951c2506f4210b4f0ea924f756"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/24"/>
+</canvas>
+<canvas name="25" width="1" height="1">
+<vector name="origin" x="173" y="771"/>
+<int name="z" value="0"/>
+<string name="_hash" value="81a19d615f0c53dab45134c03d8a582dead483eb53c91cd25ab5d3e517cca150"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/25"/>
+</canvas>
+<canvas name="26" width="1" height="1">
+<vector name="origin" x="169" y="776"/>
+<int name="z" value="0"/>
+<string name="_hash" value="5e089831bbf31b18ef03d7e37f9e477571e611725ce5cb782ef4b65d2586bbb5"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/26"/>
+</canvas>
+<canvas name="27" width="1" height="1">
+<vector name="origin" x="150" y="781"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e20dafda82a76a732a8f63da805f18eb898eb451903c15d61c9f1b5dc65a5733"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/27"/>
+</canvas>
+<canvas name="28" width="1" height="1">
+<vector name="origin" x="150" y="781"/>
+<int name="z" value="0"/>
+<string name="_hash" value="61bf451e903331dab5fa413e5d1735ee63e6c28282d0455dc4438035ff5ae788"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/28"/>
+</canvas>
+<canvas name="29" width="1" height="1">
+<vector name="origin" x="150" y="782"/>
+<int name="z" value="0"/>
+<string name="_hash" value="70761f30fb411afc4fd925678c91fbcc7540aa4b6ef11a74e21c2b6588b5393a"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/29"/>
+</canvas>
+<canvas name="30" width="1" height="1">
+<vector name="origin" x="89" y="653"/>
+<int name="z" value="0"/>
+<string name="_hash" value="aaf7870b94932134076ecc89c4d81b1346fff90e829cf00d632685195745a94a"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/30"/>
+</canvas>
+<canvas name="31" width="1" height="1">
+<vector name="origin" x="88" y="438"/>
+<int name="z" value="0"/>
+<string name="_hash" value="7c3c26dee5f0329a18008ba40278498e3b0515732cd3eae9cdea603a02fbefb0"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/31"/>
+</canvas>
+<canvas name="32" width="1" height="1">
+<vector name="origin" x="89" y="402"/>
+<int name="z" value="0"/>
+<string name="_hash" value="92a602bc083644c1f7278d5f14542ac44c1c260c30bfe7bb0ae5d8f039e89c14"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/info/areaWarning/32"/>
+</canvas>
+</imgdir>
+<imgdir name="hit">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="75" y="99"/>
+<int name="z" value="0"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="75" y="117"/>
+<int name="z" value="0"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="81" y="115"/>
+<int name="z" value="0"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="86" y="120"/>
+<int name="z" value="0"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="71" y="120"/>
+<int name="z" value="0"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="70" y="74"/>
+<int name="z" value="0"/>
+<string name="_outlink" value="Mob/9500650.img/attack1/info/hit/5"/>
+</canvas>
+</imgdir>
+<int name="attackAfter" value="2520"/>
+<int name="randDelayAttack" value="2500"/>
+</imgdir>
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="155" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="403d8a99c1d6c37c1e128de516f4704791f7b91fbe459cee7acffc8d4e083a82"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="199" y="242"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="357bf650548af62af3e04c8807825c9e7fd244688e9cbc2fe3107a86e643ef6e"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="203" y="247"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="eab9fd812903d34c7b1733bbf3a512016caf26ac68608e6c2c20fd619f440af6"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="201" y="280"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="33c9632c47e45dda69ee9d7d6383db91f8ba2907691827cc02c4cdd3ad2d58ae"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="199" y="314"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="3ce67890f1de9caeda14f4f8113b1454cacf062274ba68b7f40739d880f7d8c1"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="197" y="307"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="59a5026435f733b4015322eba1a366822dc6c3a9fb2e6f0ec91df4df67ef64cd"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ddd6893817719d6c887a1907d9fc495f6233d455bdecc739cb0a8e5bda46f6c6"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="1b4d42dd5aa64f0c2443d178e1b268809d8f5bbe299380650e425e0fe237b15d"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/7"/>
+</canvas>
+<canvas name="8" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="8d674832ce72f84dfc8d91df62dc3fd2ecd33fa236015ced1b2c6e5329c7e594"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/8"/>
+</canvas>
+<canvas name="9" width="1" height="1">
+<vector name="origin" x="205" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ad64112b356ef5d3d487f6f96b65fe243d43d04ba41071710bdba1751cbb59d5"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/9"/>
+</canvas>
+<canvas name="10" width="1" height="1">
+<vector name="origin" x="230" y="316"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="5ae87d873a622972d4f9c7d33438e606ecb3fa94526808ced730749373f6fc98"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/10"/>
+</canvas>
+<canvas name="11" width="1" height="1">
+<vector name="origin" x="230" y="316"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="607dc0c0feaa4d308fff6717cb0eef1ee5e9467e4d1694970020f32b72dcaf13"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/11"/>
+</canvas>
+<canvas name="12" width="1" height="1">
+<vector name="origin" x="230" y="313"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="803b317f46dc069544fdadeac556864abab3d5fcb7bb6a3c936d9af2616ae792"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/12"/>
+</canvas>
+<canvas name="13" width="1" height="1">
+<vector name="origin" x="205" y="255"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="04ee425c12682408d363470e3ebf95b7457ccafa8f3c0da585dcbc19e43c5876"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/13"/>
+</canvas>
+<canvas name="14" width="1" height="1">
+<vector name="origin" x="203" y="240"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="af0dada1f16d4632cf115e8b78d8e4b98c15c7971dd78c7e12d2c33e84ace8e1"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/14"/>
+</canvas>
+<canvas name="15" width="1" height="1">
+<vector name="origin" x="168" y="239"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ac4d5c6cb30c3a53e43a7921632b2d49a82e999eb6e0c317305909a28f3d0b2f"/>
+<string name="_outlink" value="Mob/9500650.img/attack2/15"/>
+</canvas>
+</imgdir>
+<imgdir name="attack3">
+<imgdir name="info">
+<imgdir name="range">
+<vector name="lt" x="-270" y="-340"/>
+<vector name="rb" x="250" y="45"/>
+</imgdir>
+<imgdir name="hit">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="87" y="55"/>
+<int name="z" value="0"/>
+<string name="_hash" value="5132bb63d44c8c356f4af560467429508964a3afc2f0360eaffc815a05e54f90"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/info/hit/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="97" y="74"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ea8a557c6858d237c7282b4457a61c6a4cc8ca8e369fffca83d8f965c303698d"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/info/hit/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="96" y="74"/>
+<int name="z" value="0"/>
+<string name="_hash" value="c2f6132d0177deb28745899287e2f28b28d4b3517084a2243ce5c529a18e563a"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/info/hit/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="101" y="78"/>
+<int name="z" value="0"/>
+<string name="_hash" value="f5f7589dd2dac7c7ddce50bae3ddcb864eafcbc9d48eb09f9f8b34b8c50437de"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/info/hit/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="101" y="77"/>
+<int name="z" value="0"/>
+<string name="_hash" value="0871b1f96c73572bbaa4faf731b1ce1991da986c1d5cf83e973eff4b353617b8"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/info/hit/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="81" y="78"/>
+<int name="z" value="0"/>
+<string name="_hash" value="4b1352b7850f35a8345dd4e4ed008c08c666e602609a402d53089c8bc4558ad7"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/info/hit/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="73" y="79"/>
+<int name="z" value="0"/>
+<string name="_hash" value="3105d6d8492f7cc68b5f139d90219f8b9fe576f10bba8bfe7a0347ed6b5c22a4"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/info/hit/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="73" y="78"/>
+<int name="z" value="0"/>
+<string name="_hash" value="b1adad9dd7670c56651180e168bfbe8c8d872ce1d792d9e29549163d37344ddf"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/info/hit/7"/>
+</canvas>
+</imgdir>
+<int name="attackAfter" value="1440"/>
+</imgdir>
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="154" y="238"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="f3ed02f9179240f8fc1cae84af2dfcec5506688510b02610015ceca320dcf02c"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="199" y="242"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="0bf95a8ca9abfd1633d502fc8729aaf874257f8e0f4def096b458921176dd169"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="203" y="247"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="9e7438a3af25954cc20a934ac7f98e26cc61a88f4c3b2d7479970d7833a40160"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="201" y="276"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="a899d522185ba0b90741a9defe17de2009b168ed3d6948534221c71aeca74ec0"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="198" y="287"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="fa9426800f03d221d2c438f0500f7cb2a384ae92f2de0fe09cc8fd7b906df293"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="196" y="294"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="7684a05daed973620d99ef4163c085809a0a63ff99c071ec0196188ce3ec627e"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="dd0c91c5605236ba6ddea96563490c6844cb2275a5fc2dc124b9582b4820ce7e"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="b86863de48313801b1439c8a48e32fba70c75e19b1249a685b67844e3dc3f408"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/7"/>
+</canvas>
+<canvas name="8" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="dd1deffd04144288085919f51519a5abe66da63bcdc82714d598e8ed3fdf6c7d"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/8"/>
+</canvas>
+<canvas name="9" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="0cfb206e1a79416075f7a655090ced25012370e5091604a3132ec16f41dfb433"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/9"/>
+</canvas>
+<canvas name="10" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="37899e262cc3ba05917ca8bf3dcf75cf1919cc2ca408ab5b3fb9e12a47ff3033"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/10"/>
+</canvas>
+<canvas name="11" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="cebfe284324ed48f0015f8507e4e06355a6e9cbc60d083d542b16aa72a622dd5"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/11"/>
+</canvas>
+<canvas name="12" width="1" height="1">
+<vector name="origin" x="196" y="296"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="7a59a4098e7c033a2bce860422f9658d9040c64359f4b62b91c54d615b83591f"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/12"/>
+</canvas>
+<canvas name="13" width="1" height="1">
+<vector name="origin" x="350" y="314"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="2d40d0fae69a78dbbc6cc3677e1950c5f38d379f709cb88580e5a13876a4c430"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/13"/>
+</canvas>
+<canvas name="14" width="1" height="1">
+<vector name="origin" x="302" y="345"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="4b94124fa0a7014133649f694d3f514a40d48085c3b66ef43afe6065476f3eda"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/14"/>
+</canvas>
+<canvas name="15" width="1" height="1">
+<vector name="origin" x="265" y="344"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="8a3916d76d06ea9b7416d72292a87d049a18af1ec6c7360f0bab77ffb42d8f62"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/15"/>
+</canvas>
+<canvas name="16" width="1" height="1">
+<vector name="origin" x="269" y="341"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ec80aadb2f8a31128593089454c6c6ae153990e6e6d16996091f5721db268c62"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/16"/>
+</canvas>
+<canvas name="17" width="1" height="1">
+<vector name="origin" x="269" y="339"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ab9c619cf3d6b6e0e4d51cf3c05cb7b3d1b6588e50ea9e91f76a0463723eb324"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/17"/>
+</canvas>
+<canvas name="18" width="1" height="1">
+<vector name="origin" x="274" y="337"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="5e7676634065b96e0e7ad854ab7c04778f40de15a80ed42e85b4ff78cf464ac5"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/18"/>
+</canvas>
+<canvas name="19" width="1" height="1">
+<vector name="origin" x="275" y="335"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="4212475ef247f7e082947ecd9859260d64a2caf49e48598e97220f24223aed1f"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/19"/>
+</canvas>
+<canvas name="20" width="1" height="1">
+<vector name="origin" x="277" y="334"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="ae4a0b17df782873ca1516a45bdaab9bd7a04acbcf22841da969cfe820ff0f37"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/20"/>
+</canvas>
+<canvas name="21" width="1" height="1">
+<vector name="origin" x="279" y="335"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="44042881ad5faa8bca910a58c37ad42eabb609b5dabf43bb21e54533598c4b06"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/21"/>
+</canvas>
+<canvas name="22" width="1" height="1">
+<vector name="origin" x="280" y="336"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="bef0eb043d7f387f72eb96a268d05ce7b502abcf994457ad85567a80bb5111e5"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/22"/>
+</canvas>
+<canvas name="23" width="1" height="1">
+<vector name="origin" x="279" y="336"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="eff04695d0c20af80c14d0085412794d62c3f49f6687c1de77d1cae28c4601bc"/>
+<string name="_outlink" value="Mob/9500650.img/attack3/23"/>
+</canvas>
+</imgdir>
+<imgdir name="hit1">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="154" y="234"/>
+<int name="z" value="0"/>
+<vector name="head" x="-30" y="-220"/>
+<vector name="lt" x="-150" y="-240"/>
+<vector name="rb" x="175" y="5"/>
+<string name="_hash" value="89798eea5086475680c849150c8bcdf5ea19bb6143fe48d34fae7169cd18f877"/>
+<string name="_outlink" value="Mob/9500650.img/hit1/0"/>
+</canvas>
+</imgdir>
+<imgdir name="die1">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="154" y="234"/>
+<int name="z" value="0"/>
+<string name="_outlink" value="Mob/9500650.img/hit1/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="149" y="238"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ca10ba16003ea272a57ddd99461c61e0db78ea50c3834266756ce5556065f872"/>
+<string name="_outlink" value="Mob/9500650.img/die1/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="179" y="249"/>
+<int name="z" value="0"/>
+<string name="_hash" value="5f596d9a759cab80860d14fe328bff69d80ee1806bb2db42d86347330a93294d"/>
+<string name="_outlink" value="Mob/9500650.img/die1/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="166" y="256"/>
+<int name="z" value="0"/>
+<string name="_hash" value="ab5f575597131d3f58a0144cda11e4b9acc249eb6d5d2afeb25e65253fa0582d"/>
+<string name="_outlink" value="Mob/9500650.img/die1/3"/>
+</canvas>
+<canvas name="4" width="1" height="1">
+<vector name="origin" x="162" y="258"/>
+<int name="z" value="0"/>
+<string name="_hash" value="4061e358db7d1de2d5c0000412d74d2962e9039a010ad8d624032745622dbc4b"/>
+<string name="_outlink" value="Mob/9500650.img/die1/4"/>
+</canvas>
+<canvas name="5" width="1" height="1">
+<vector name="origin" x="162" y="260"/>
+<int name="z" value="0"/>
+<string name="_hash" value="f58dae0395a1a79b20481c42a9659268f840d3b56ed20837e558f4de876866c3"/>
+<string name="_outlink" value="Mob/9500650.img/die1/5"/>
+</canvas>
+<canvas name="6" width="1" height="1">
+<vector name="origin" x="161" y="257"/>
+<int name="z" value="0"/>
+<string name="_hash" value="957420fab02713707684bfe3efd88b7c7c48bf090f7564406c80868b5f2d0bf1"/>
+<string name="_outlink" value="Mob/9500650.img/die1/6"/>
+</canvas>
+<canvas name="7" width="1" height="1">
+<vector name="origin" x="158" y="257"/>
+<int name="z" value="0"/>
+<string name="_hash" value="0d5067a723660b46947611701b73466ac1fe6dd932744b5cdcaf274970ef363a"/>
+<string name="_outlink" value="Mob/9500650.img/die1/7"/>
+</canvas>
+<canvas name="8" width="1" height="1">
+<vector name="origin" x="216" y="299"/>
+<int name="z" value="0"/>
+<string name="_hash" value="55961aa50a6a58aa314e75bb69deb55ad5857a76f55745aa393847d81631374d"/>
+<string name="_outlink" value="Mob/9500650.img/die1/8"/>
+</canvas>
+<canvas name="9" width="1" height="1">
+<vector name="origin" x="256" y="322"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e598b869dffa460335fd6086286218270d2b49a428fcbfd75e0588a68325021a"/>
+<string name="_outlink" value="Mob/9500650.img/die1/9"/>
+</canvas>
+<canvas name="10" width="1" height="1">
+<vector name="origin" x="250" y="329"/>
+<int name="z" value="0"/>
+<string name="_hash" value="eb233e916ab4222fe5f1836c045558b70b78e96149e061866d355685279175bf"/>
+<string name="_outlink" value="Mob/9500650.img/die1/10"/>
+</canvas>
+<canvas name="11" width="1" height="1">
+<vector name="origin" x="258" y="329"/>
+<int name="z" value="0"/>
+<string name="_hash" value="8756e6582d60a833c11e41327421f4427ca7eaf252cdb8cdea64c3e71a7b9168"/>
+<string name="_outlink" value="Mob/9500650.img/die1/11"/>
+</canvas>
+<canvas name="12" width="1" height="1">
+<vector name="origin" x="240" y="335"/>
+<int name="z" value="0"/>
+<string name="_hash" value="8466507f76c281ae36b8008ed58ce60d925f05f9aa039d5c329b3a4cb46e9c2d"/>
+<string name="_outlink" value="Mob/9500650.img/die1/12"/>
+</canvas>
+<canvas name="13" width="1" height="1">
+<vector name="origin" x="257" y="337"/>
+<int name="z" value="0"/>
+<string name="_hash" value="0535bfbb841bdd38d22a3d58b3ffcd0f143609d69d3fd13aadc3daf50c369219"/>
+<string name="_outlink" value="Mob/9500650.img/die1/13"/>
+</canvas>
+<canvas name="14" width="1" height="1">
+<vector name="origin" x="258" y="341"/>
+<int name="z" value="0"/>
+<string name="_hash" value="932ddf0f9e0b39b460281fa39cffae6056405263b39e6381177df14778219401"/>
+<string name="_outlink" value="Mob/9500650.img/die1/14"/>
+</canvas>
+<canvas name="15" width="1" height="1">
+<vector name="origin" x="252" y="342"/>
+<int name="z" value="0"/>
+<string name="_hash" value="dbda7acc473988c22b9b1920f72bddf1d21635b986dd5f822cb44034ac84a92f"/>
+<string name="_outlink" value="Mob/9500650.img/die1/15"/>
+</canvas>
+<canvas name="16" width="1" height="1">
+<vector name="origin" x="255" y="340"/>
+<int name="z" value="0"/>
+<string name="_hash" value="27a190d0434444a15a3be7121b93f5fb3562e6fba47777acd030bfed27f92c5c"/>
+<string name="_outlink" value="Mob/9500650.img/die1/16"/>
+</canvas>
+<canvas name="17" width="1" height="1">
+<vector name="origin" x="257" y="335"/>
+<int name="z" value="0"/>
+<string name="_hash" value="c355cc77bde7bab6e8a2c4d01dd29b4f19528aef0437d1eb2f4c4eb189710df5"/>
+<string name="_outlink" value="Mob/9500650.img/die1/17"/>
+</canvas>
+</imgdir>
+</imgdir>

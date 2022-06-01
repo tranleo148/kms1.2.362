@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="42.img">
+<imgdir name="info">
+<string name="name" value="[레벨업] 내가 220레벨이라니!"/>
+<string name="desc" value="220레벨 달성"/>
+<int name="score" value="30"/>
+<string name="mainCategory" value="growth"/>
+<string name="subCategory" value="level"/>
+<string name="difficulty" value="epic"/>
+<imgdir name="uiType">
+<string name="gauge" value="submission_info"/>
+<string name="gaugeSubMission" value="user_lvup"/>
+<int name="noApproaching" value="1"/>
+</imgdir>
+<imgdir name="prior">
+<int name="achievement_id" value="41"/>
+</imgdir>
+</imgdir>
+<imgdir name="mission">
+<imgdir name="0">
+<string name="name" value="220레벨 이상 달성"/>
+<imgdir name="subMission">
+<imgdir name="user_lvup">
+<imgdir name="score">
+<long name="targetScore" value="220"/>
+<string name="compare" value="greater_than_or_equal_to"/>
+<string name="type" value="set_if_higher"/>
+<string name="setGroup" value="character"/>
+<string name="setValue" value="character_level"/>
+</imgdir>
+<imgdir name="checkValue">
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3001910.img">
+<imgdir name="info">
+<int name="sayFlip" value="1"/>
+<int name="forceMove" value="1"/>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="28" y="85"/>
+<int name="z" value="0"/>
+<string name="_hash" value="cccf1e603f3fca7b87b544e9c162c36c06fc2de05b4441f44010b020c9b8070d"/>
+<string name="_outlink" value="Npc/3001860.img/stand/0"/>
+</canvas>
+</imgdir>
+<imgdir name="move">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="28" y="85"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="b9d8e5fe1836760079a7ba87853fe7ff35300bf8dadcc6a4bdbb0a204128b3d5"/>
+<string name="_outlink" value="Npc/3001860.img/move/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="5bb83f85a18d14623688f0a98758732bdb5c626807e5afe81757b65031d3699e"/>
+<string name="_outlink" value="Npc/3001860.img/move/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="28" y="85"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="e46b4153d09541fbf71aebef9b6adcc07ef09e7fbd7361fb83aa9db19d20b964"/>
+<string name="_outlink" value="Npc/3001860.img/move/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="28" y="84"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="196772e7ca193c2901e9693f1dcc1b36fc0fd281b2d3565d8ec4e9e28345cdbe"/>
+<string name="_outlink" value="Npc/3001860.img/move/3"/>
+</canvas>
+</imgdir>
+<imgdir name="condition2">
+<imgdir name="39660 ">
+<imgdir name="0">
+<string name="value" value="h0"/>
+<string name="key" value="10"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="move" value="../move"/>
+<int name="hide" value="1"/>
+</imgdir>
+<imgdir name="condition3">
+<imgdir name="39660 ">
+<imgdir name="0">
+<string name="value" value="h1"/>
+<string name="key" value="10"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="move" value="../move"/>
+</imgdir>
+</imgdir>

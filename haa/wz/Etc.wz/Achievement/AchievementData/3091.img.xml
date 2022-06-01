@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3091.img">
+<imgdir name="info">
+<string name="name" value="[자쿰] 손바닥 뒤집기보다 쉽네 x8"/>
+<string name="desc" value="5분 이내에 카오스 자쿰 격파"/>
+<int name="score" value="30"/>
+<string name="mainCategory" value="battle"/>
+<string name="subCategory" value="boss"/>
+<string name="difficulty" value="epic"/>
+<imgdir name="uiType">
+<string name="gauge" value="submission_info"/>
+<string name="gaugeSubMission" value="mob_kill"/>
+</imgdir>
+</imgdir>
+<imgdir name="mission">
+<imgdir name="0">
+<string name="name" value="5분 이내 카오스 자쿰 격파"/>
+<imgdir name="subMission">
+<imgdir name="mob_kill">
+<imgdir name="score">
+<long name="targetScore" value="1"/>
+<string name="compare" value="greater_than_or_equal_to"/>
+</imgdir>
+<imgdir name="checkValue">
+<imgdir name="mob">
+<int name="mob_id" value="8800102"/>
+</imgdir>
+<imgdir name="fieldset">
+<imgdir name="fieldset_elapsed_time">
+<int name="min" value="0"/>
+<int name="max" value="300000"/>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>
+</imgdir>

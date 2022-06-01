@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="2010007.img">
+<imgdir name="info">
+<imgdir name="script">
+<imgdir name="0">
+<string name="script" value="guild_proc"/>
+</imgdir>
+</imgdir>
+<int name="dcLeft" value="-20"/>
+<int name="dcTop" value="-88"/>
+<int name="dcBottom" value="0"/>
+<int name="dcRight" value="31"/>
+<canvas name="default" width="52" height="63">
+<vector name="origin" x="20" y="68"/>
+<int name="delay" value="1000"/>
+<string name="_hash" value="b48f5966b36a7d45e81e214cbdbf0133a7a4fb48f1f2545d4e10916e9196f72f"/>
+</canvas>
+<imgdir name="speak">
+<string name="0" value="s0"/>
+<string name="1" value="s1"/>
+</imgdir>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="115" height="108">
+<vector name="origin" x="57" y="107"/>
+<int name="delay" value="900"/>
+<string name="_hash" value="a28108a859d43fa4cd67fe521c27ecb66223bd9581fab5762f55aa7933e8637d"/>
+</canvas>
+<canvas name="1" width="115" height="108">
+<vector name="origin" x="57" y="107"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="ffc1c0def838d00aa486d0fc24492f483d07246da1c4bfdac393ea9735200d63"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="57" y="107"/>
+<int name="delay" value="180"/>
+<string name="_inlink" value="stand/0"/>
+</canvas>
+</imgdir>
+</imgdir>

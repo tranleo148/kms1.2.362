@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<imgdir name="3001655.img">
+<imgdir name="info">
+<imgdir name="illustration2">
+<canvas name="base" width="1" height="1">
+</canvas>
+<imgdir name="face">
+<canvas name="0" width="171" height="241">
+<vector name="origin" x="-38" y="120"/>
+<int name="z" value="0"/>
+<string name="_hash" value="d9fb31a3b889c43fff1bd3cdf10b43df6ba635ca2f1a95244f309feca4e2f722"/>
+</canvas>
+</imgdir>
+</imgdir>
+<int name="forceMove" value="1"/>
+<int name="hideName" value="1"/>
+</imgdir>
+<imgdir name="stand">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="21" y="78"/>
+<int name="z" value="0"/>
+<string name="_hash" value="e7cb34718eae2bc97cafba358d0b86ae67fae305a563e8d86c01af8efd71bd01"/>
+<string name="_outlink" value="Npc/3001609.img/stand/0"/>
+</canvas>
+</imgdir>
+<imgdir name="move">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="26" y="75"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="588a26704791d3e41590ca1cf1e2656f13fdcc09b2b9f34a53844d9af0afd380"/>
+<string name="_outlink" value="Npc/3001609.img/special0/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="24" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="a565adaf48de4df1e3351690d6915ae2fb23adb9d2539d4551d3a5580d606107"/>
+<string name="_outlink" value="Npc/3001609.img/special0/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="25" y="75"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="4a875ca443488fabb0e1b5f79151c430193297f5a628ba0297e4dad1397841f0"/>
+<string name="_outlink" value="Npc/3001609.img/special0/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="24" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="150"/>
+<string name="_hash" value="35ca1ca83043d82ec427e84d646deb77cadb4dd3cc2300a916af1142a0577cc4"/>
+<string name="_outlink" value="Npc/3001609.img/special0/3"/>
+</canvas>
+</imgdir>
+<imgdir name="special0">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="21" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="228f984c5d4a19c1a3b5b2a1d72ade38b792e3b9b4a6ecc2b7057e09bc93f30b"/>
+<string name="_outlink" value="Npc/3001609.img/move/0"/>
+</canvas>
+<canvas name="1" width="1" height="1">
+<vector name="origin" x="21" y="79"/>
+<int name="z" value="0"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="b624c7448f10a3ba9c83ddbff58695b47379145b75442b97d4c4071564a51c9e"/>
+<string name="_outlink" value="Npc/3001609.img/move/1"/>
+</canvas>
+<canvas name="2" width="1" height="1">
+<vector name="origin" x="21" y="78"/>
+<int name="z" value="0"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="7cbe9c52cb79b53aeb24d543f32432cd0a9bde7b3e76eb338ae697694ef5069e"/>
+<string name="_outlink" value="Npc/3001609.img/move/2"/>
+</canvas>
+<canvas name="3" width="1" height="1">
+<vector name="origin" x="21" y="79"/>
+<int name="z" value="0"/>
+<int name="delay" value="180"/>
+<string name="_hash" value="8bd5044279fc852473e12e8f5d78a41a459a83283527f625a0cbda29f8628a59"/>
+<string name="_outlink" value="Npc/3001609.img/move/3"/>
+</canvas>
+<int name="special" value="1"/>
+</imgdir>
+<imgdir name="special1">
+<canvas name="0" width="1" height="1">
+<vector name="origin" x="20" y="35"/>
+<int name="z" value="0"/>
+<string name="_hash" value="66d5c4e08da82fa5c4559ba86c48235b158c24d2c09dfa04f39fb991e017e0d9"/>
+<string name="_outlink" value="Npc/3001609.img/special1/0"/>
+</canvas>
+<int name="special" value="1"/>
+</imgdir>
+<imgdir name="condition2">
+<imgdir name="39598">
+<imgdir name="0">
+<string name="key" value="55"/>
+<string name="value" value="h0"/>
+</imgdir>
+</imgdir>
+<int name="hide" value="1"/>
+<uol name="stand" value="../stand"/>
+<uol name="move" value="../move"/>
+<uol name="special0" value="../special0"/>
+<uol name="special1" value="../special1"/>
+</imgdir>
+<imgdir name="condition3">
+<imgdir name="39598">
+<imgdir name="0">
+<string name="key" value="55"/>
+<string name="value" value="h1"/>
+</imgdir>
+</imgdir>
+<uol name="stand" value="../stand"/>
+<uol name="move" value="../move"/>
+<uol name="special0" value="../special0"/>
+<uol name="special1" value="../special1"/>
+</imgdir>
+</imgdir>

@@ -1,0 +1,109 @@
+﻿importPackage(Packages.constants);
+
+
+var status = -1;
+
+var 별 = "#fUI/FarmUI.img/objectStatus/star/whole#";
+var HOT = "#fUI/CashShop.img/CSEffect/hot/0#";
+var NEW = "#fUI/CashShop.img/CSEffect/new/0#";
+
+
+function start() {
+    action (1, 0, 0);
+}
+
+function action(mode, type, selection) {
+    if (mode == -1 || mode == 0) {
+        cm.dispose();
+        return;
+    }
+    if (mode == 1) {
+        status++;
+    }
+    if (status == 0) {
+
+        var choose = "#fs11##fc0xFF050099##k\r\n";
+        choose += "#L1##fUI/UIWindow2.img/MobGage/Mob/8800100##e 자쿰#n#l\r\n";
+        choose += "#L2##fUI/UIWindow2.img/MobGage/Mob/8880200##e 카웅#n#l\r\n";
+        choose += "#L3##fUI/UIWindow2.img/MobGage/Mob/8810122##e 혼테일#n#l\r\n";
+        choose += "#L4##fUI/UIWindow2.img/MobGage/Mob/8870000##e 힐라#n#l\r\n";
+        choose += "#L5##fUI/UIWindow2.img/MobGage/Mob/8840014##e 반레온#n#l\r\n";
+        choose += "#L6##fUI/UIWindow2.img/MobGage/Mob/8860000##e 아카이럼#n#l\r\n";
+        choose += "#L7##fUI/UIWindow2.img/MobGage/Mob/8820001##e 핑크빈#n#l\r\n";
+        choose += "#L8##fUI/UIWindow2.img/MobGage/Mob/8850011##e 시그너스#n#l\r\n";
+        choose += "#L9##fUI/UIWindow2.img/MobGage/Mob/8880002##b#e 매그너스#n#l\r\n";
+        choose += "#L10##fUI/UIWindow2.img/MobGage/Mob/8930100##e 루타비스#n#l\r\n";
+        choose += "#L11##fUI/UIWindow2.img/MobGage/Mob/8500012##e 파풀라투스#n#l\r\n";
+        choose += "#L12##fUI/UIWindow2.img/MobGage/Mob/8950102##e 스우#n#l\r\n";
+        choose += "#L13##fUI/UIWindow2.img/MobGage/Mob/8880111##e 데미안#n#l\r\n";
+        choose += "#L14##fUI/UIWindow2.img/MobGage/Mob/8880150##e 루시드#n#l\r\n";
+        choose += "#L15##fUI/UIWindow2.img/MobGage/Mob/8880342##e 윌#n#l\r\n";
+        choose += "#L16##fUI/UIWindow2.img/MobGage/Mob/8880405##e 진힐라#n#l\r\n";
+        choose += "#L17##fUI/UIWindow2.img/MobGage/Mob/8644655##e 더스크#n#l\r\n";
+        choose += "#L18##fUI/UIWindow2.img/MobGage/Mob/8645009##e 듄켈#n#l\r\n";
+		choose += "#L19##e 가디언 엔젤 슬라임#n#l\r\n";
+		choose += "#가디언 엔젤 슬라임은 바로 입장됩니다#l\r\n\r\n\r\n\r\n";
+
+        cm.sendSimple(choose);
+
+    } else if (selection == 1) {//자쿰
+        cm.dispose();
+	cm.warpParty(211042300);
+    } else if (selection == 2) {//카웅
+        cm.dispose();
+	cm.warpParty(221030900);
+    } else if (selection == 3) {//혼테일
+	cm.dispose();
+	cm.warpParty(240050400);
+    } else if (selection == 4) {//힐라
+	cm.dispose();
+	cm.warpParty(262030000);
+    } else if (selection == 5) {//반 레온
+	cm.dispose();
+	cm.warpParty(211070000);
+    } else if (selection == 6) {//아카이럼
+	cm.dispose();
+	cm.warpParty(272020110);
+    } else if (selection == 7) {//핑크빈
+	cm.dispose();
+	cm.warpParty(270050000);
+    } else if (selection == 8) {//시그너스
+	cm.dispose();
+	cm.warpParty(271041000);
+    } else if (selection == 9) {//매그너스
+	cm.dispose();
+	cm.warpParty(401060000);
+    } else if (selection == 10) {//루타비스
+	cm.dispose();
+	cm.warpParty(105200000);
+    } else if (selection == 11) {//파풀라투스
+	cm.dispose();
+	cm.warpParty(220080000);
+    } else if (selection == 12) {//스우
+	cm.dispose();
+	cm.warpParty(350060300);
+    } else if (selection == 13) {//데미안
+	cm.dispose();
+	cm.warpParty(105300303);
+    } else if (selection == 14) {//루시드
+	cm.dispose();
+	cm.warpParty(450004000);
+    } else if (selection == 15) {//윌
+	cm.dispose();
+	cm.warpParty(450007240);
+    } else if (selection == 16) {//진 힐라
+	cm.dispose();
+	cm.warpParty(450011990);
+    } else if (selection == 17) {//더스크
+	cm.dispose();
+	cm.warpParty(450009301);
+    } else if (selection == 18) {//듄켈
+	cm.dispose();
+	cm.warpParty(450012200);
+    } else if (selection == 19) {//가엔슬발럼
+	cm.dispose();
+	cm.warpParty(160020000);
+	cm.killAllMob();
+    cm.spawnMob(8880700, 742, -1382);
+	}
+}
